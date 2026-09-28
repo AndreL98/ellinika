@@ -26,8 +26,8 @@ function realPacks(): PackContent[] {
   });
 }
 
-describe('real content: general/el with German explanations', () => {
-  const { units, pools } = loadContent(realPacks(), { learnLang: 'el', uiLang: 'de', includeUnapproved: true });
+describe.each(['el', 'ru'])('real content: general/%s with German explanations', (learnLang) => {
+  const { units, pools } = loadContent(realPacks(), { learnLang, uiLang: 'de', includeUnapproved: true });
   const general = units.filter((unit) => unit.pack === 'general');
 
   it('has units with titles and enough words and sentences for every exercise type', () => {
@@ -53,11 +53,17 @@ describe('real content: general/el with German explanations', () => {
     expect(new Set(pool.map((item) => item.meaning.toLowerCase())).size).toBe(pool.length);
   });
 
-  it('public builds contain only approved items with reviewer and date', () => {
-    const pub = loadContent(realPacks(), { learnLang: 'el', uiLang: 'de', includeUnapproved: false });
+  it('public builds contain only approved items', () => {
+    const pub = loadContent(realPacks(), { learnLang, uiLang: 'de', includeUnapproved: false });
     const items = pub.units.flatMap((unit) => unit.items);
-    expect(items.length).toBeGreaterThan(0);
     for (const item of items) expect(item.status, item.id).toBe('approved');
+    // Greek was approved on 2026-09-28; Russian stays hidden until it is approved.
+    expect(items.length).toBe(learnLang === 'el' ? 63 : 0);
+  });
+
+  it('uses its own script', () => {
+    const script = learnLang === 'ru' ? /\p{Script=Cyrillic}/u : /\p{Script=Greek}/u;
+    for (const item of pools['general'] ?? []) expect(item.text, item.id).toMatch(script);
   });
 
   it('generates playable lessons for every unit, level and voice setting', () => {

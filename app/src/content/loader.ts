@@ -33,6 +33,32 @@ export interface LoadedContent {
   pools: Record<string, LearnItem[]>;
 }
 
+/** Progress key of a unit; progress is kept per learning language. */
+export function progressKeyOf(learnLang: string, pack: string, unitId: string): string {
+  return `${learnLang}:${pack}/${unitId}`;
+}
+
+/** A language-specific note wins over the general note of the explanation. */
+function noteOf(languageNote: Record<string, string> | undefined, glossNote: string | undefined, uiLang: string) {
+  const note = languageNote?.[uiLang] ?? glossNote;
+  return note ? { note } : {};
+}
+
+/** Preferred order in the language switch; other languages follow alphabetically. */
+const LANGUAGE_ORDER = ['el', 'ru', 'cu'];
+
+/** Learning languages that have at least one visible unit for this UI language. */
+export function availableLearnLangs(packs: PackContent[], options: Omit<LoadOptions, 'learnLang'>): string[] {
+  const langs = new Set(packs.flatMap((pack) => Object.keys(pack.languages)));
+  const rank = (lang: string) => {
+    const index = LANGUAGE_ORDER.indexOf(lang);
+    return index === -1 ? LANGUAGE_ORDER.length : index;
+  };
+  return [...langs]
+    .filter((learnLang) => loadContent(packs, { ...options, learnLang }).units.length > 0)
+    .sort((a, b) => rank(a) - rank(b) || a.localeCompare(b));
+}
+
 /** The weaker of two statuses, so a text counts as approved only if text and gloss are approved. */
 function weakest(a: ContentStatus, b: ContentStatus): ContentStatus {
   const rank: Record<ContentStatus, number> = { draft: 0, reviewed: 1, approved: 2 };
@@ -73,7 +99,7 @@ export function loadContent(packs: PackContent[], options: LoadOptions): LoadedC
         pronAi: isAiSuggestion(text.pron_status),
         audio: text.audio ?? null,
         meaning: explanation.meaning,
-        ...(explanation.note ? { note: explanation.note } : {}),
+        ...(noteOf(text.note, explanation.note, options.uiLang)),
         status,
         source: text.source,
       });
@@ -85,6 +111,7 @@ export function loadContent(packs: PackContent[], options: LoadOptions): LoadedC
       if (unitItems.length === 0) continue;
       units.push({
         key: `${core.pack}/${unit.id}`,
+        progressKey: progressKeyOf(language.lang, core.pack, unit.id),
         pack: core.pack,
         id: unit.id,
         ...(unit.icon ? { icon: unit.icon } : {}),

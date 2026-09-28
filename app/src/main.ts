@@ -1,6 +1,6 @@
 import './styles.css';
 import { bundledPacks } from './content/packs';
-import { loadContent } from './content/loader';
+import { availableLearnLangs, loadContent } from './content/loader';
 import { toLocalDate, type Progress } from './engine/progress';
 import { createTranslator, directionOf, pickLanguage } from './i18n';
 import { DEFAULT_LOCALE, locales } from './i18n/locales';
@@ -13,8 +13,7 @@ import { renderLesson } from './ui/lesson-screen';
 import { renderPath } from './ui/path-screen';
 import { renderShell } from './ui/shell';
 
-/** Learning language of the MVP; a language switch follows in phase 2. */
-const LEARN_LANG = 'el';
+const LEARN_LANG_KEY = 'learnLang';
 
 async function start(root: HTMLElement): Promise<void> {
   const uiLang = pickLanguage(navigator.languages, Object.keys(locales), DEFAULT_LOCALE);
@@ -28,8 +27,11 @@ async function start(root: HTMLElement): Promise<void> {
 
   // Public builds show only approved texts; the dev server and the private review build also show drafts.
   const includeUnapproved = import.meta.env.DEV || import.meta.env.MODE === 'review';
-  const content = loadContent(bundledPacks(), { learnLang: LEARN_LANG, uiLang, includeUnapproved });
+  const packs = bundledPacks();
   const store = await openBestStore();
+  const learnLangs = availableLearnLangs(packs, { uiLang, includeUnapproved });
+  const saved = await store.get(LEARN_LANG_KEY);
+  const learnLang = saved && learnLangs.includes(saved) ? saved : (learnLangs[0] ?? 'el');
   let progress: Progress = await loadProgress(store);
   const speaker = new Speaker();
   const today = () => toLocalDate(new Date());
@@ -37,8 +39,15 @@ async function start(root: HTMLElement): Promise<void> {
   const ctx: AppContext = {
     t,
     uiLang,
-    learnLang: LEARN_LANG,
-    content,
+    learnLang,
+    learnLangs,
+    async setLearnLang(lang) {
+      ctx.learnLang = lang;
+      ctx.content = loadContent(packs, { learnLang: lang, uiLang, includeUnapproved });
+      route();
+      await store.set(LEARN_LANG_KEY, lang);
+    },
+    content: loadContent(packs, { learnLang, uiLang, includeUnapproved }),
     speaker,
     random: Math.random,
     includeUnapproved,
@@ -57,7 +66,7 @@ async function start(root: HTMLElement): Promise<void> {
 
   const route = () => {
     const match = /^#\/lesson\/([^/]+)\/([^/]+)$/.exec(location.hash);
-    const unit = match ? content.units.find((candidate) => candidate.key === `${match[1]}/${match[2]}`) : undefined;
+    const unit = match ? ctx.content.units.find((candidate) => candidate.key === `${match[1]}/${match[2]}`) : undefined;
     shell.updateStats(progress, today());
     if (unit) renderLesson(shell.main, unit, ctx);
     else renderPath(shell.main, ctx);

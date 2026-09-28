@@ -23,7 +23,7 @@ function renderResult(root: HTMLElement, unit: LearnUnit, summary: LessonSummary
       el('p', {
         textContent: summary.perfect ? t('result.perfect') : t('result.mistakes', { count: summary.mistakes }),
       }),
-      el('p', { textContent: t('result.crowns', { count: crownsOf(ctx.getProgress(), unit.key) }) }),
+      el('p', { textContent: t('result.crowns', { count: crownsOf(ctx.getProgress(), unit.progressKey) }) }),
       back,
     ]),
   );
@@ -36,7 +36,7 @@ export function renderLesson(root: HTMLElement, unit: LearnUnit, ctx: AppContext
   const exercises = generateLesson(unit.items, ctx.content.pools[unit.pack] ?? unit.items, {
     random: ctx.random,
     canListen: ctx.speaker.hasVoice(ctx.learnLang),
-    crowns: crownsOf(ctx.getProgress(), unit.key),
+    crowns: crownsOf(ctx.getProgress(), unit.progressKey),
   });
   if (exercises.length === 0) {
     root.replaceChildren(el('p', { textContent: t('lesson.empty') }));
@@ -49,7 +49,7 @@ export function renderLesson(root: HTMLElement, unit: LearnUnit, ctx: AppContext
     if (!exercise) {
       const summary = lesson.summary();
       // Progress is updated in memory at once; saving runs in the background.
-      void ctx.setProgress(applyLesson(ctx.getProgress(), unit.key, summary, ctx.today()));
+      void ctx.setProgress(applyLesson(ctx.getProgress(), unit.progressKey, summary, ctx.today()));
       renderResult(root, unit, summary, ctx);
       return;
     }

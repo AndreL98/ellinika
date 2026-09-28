@@ -1,7 +1,7 @@
 # APP.md – Zentrale Projektdatei
 
 > Diese Datei ist die „einzige Wahrheit“ für das Projekt. Computer liest sie vor jeder Aufgabe.
-> Stand: 28.09.2026 (Phase 1, erstes Inhaltspaket) · Verantwortlich: Andre Löwen
+> Stand: 28.09.2026 (Phase 2 begonnen: Alltag/Russisch als Entwurf) · Verantwortlich: Andre Löwen
 
 ## 1. Vision
 Eine kostenlose, quelloffene Lern-App, die die Orthodoxie nahbar macht: Wer z. B. Spanisch spricht, aber kein Griechisch oder Kirchenslawisch, lernt Vaterunser, Glaubensbekenntnis und die wichtigsten Begriffe und Rufe der Liturgie – mit Aussprache, Umschrift und belegter Erklärung.
@@ -65,6 +65,7 @@ Jede Kombination soll funktionieren, soweit Inhalte vorhanden sind.
       "translit_status": "ai_suggestion",
       "pron": { "de": "ton AR-ton i-MON …" },
       "pron_status": "ai_suggestion",
+      "note": { "de": "Hinweis nur für diese Lernsprache (optional)" },
       "audio": null,
       "source": { "title": "Göttliche Liturgie, Ökumenisches Patriarchat", "url": "" },
       "status": "approved", "reviewed_by": "", "reviewed_at": "" } } }
@@ -75,7 +76,7 @@ Jede Kombination soll funktionieren, soweit Inhalte vorhanden sind.
 { "lang": "de", "units": { "prayer.lords": { "title": "Vaterunser" } }, "items": { "prayer.lords.5": { "meaning": "…", "note": "…", "source": { "title": "…" }, "status": "draft" } } }
 ```
 
-Regeln: Item-IDs sind stabil (nie umbenennen). `status` ∈ draft | reviewed | approved. Öffentliche Builds zeigen nur `approved`. `approved` verlangt `reviewed_by` und `reviewed_at`. `translit_status`/`pron_status` ∈ ai_suggestion | verified; fehlt das Feld, gilt es als KI-Vorschlag. Die Schemas liegen in `/content/schema` (pack, item, gloss), geprüft mit `npm run validate:content`.
+Regeln: Item-IDs sind stabil (nie umbenennen). `status` ∈ draft | reviewed | approved. Öffentliche Builds zeigen nur `approved`. `approved` verlangt `reviewed_by` und `reviewed_at`. `translit_status`/`pron_status` ∈ ai_suggestion | verified; fehlt das Feld, gilt es als KI-Vorschlag. Ein `note` in `<lang>.json` gilt nur für diese Lernsprache und hat Vorrang vor dem `note` in der Erklärungsdatei. Die Schemas liegen in `/content/schema` (pack, item, gloss), geprüft mit `npm run validate:content`.
 
 ## 7. Übungstypen (Stand Prototyp „Ellinika“)
 Bedeutung wählen, Übersetzung wählen, Hören und wählen, Satz bauen (beide Richtungen), Hören und Satz bauen, Paare finden. Fehler kommen am Ende der Lektion erneut. Kronen 0–3 je Einheit, XP, Tagesziel, Serie.
@@ -142,3 +143,7 @@ Regeln: Eine Lektion hat 8 Aufgaben. Falsche Antworten kommen am Ende erneut (h�
 | 28.09.2026 | Private Prüfansicht (`npm run build:review`) zeigt Entwürfe, nur für das Projekt, nie öffentlich | Inhalte lassen sich vor der Freigabe am Handy durchspielen |
 | 28.09.2026 | Speicher-Rückfall mit Zeitlimit (IndexedDB 1,5 s) | In eingebetteten Ansichten kann IndexedDB hängen |
 | 28.09.2026 | Paket `general/el` (63 Items) freigegeben durch Andre Löwen; Umschrift/Aussprache bleiben KI-Vorschlag | Nicht liturgisch, Freigabe durch den Projektverantwortlichen; Muttersprachler-Prüfung folgt |
+| 28.09.2026 | Paket `general/ru` nutzt dieselben 63 Item-IDs und deutschen Bedeutungen wie `general/el` | Ein Grundwortschatz, gleiche Einheiten, weniger Pflege |
+| 28.09.2026 | Sprachbezogene Hinweise stehen in `<lang>.json` (`note` je Oberflächensprache); griechische Hinweise dorthin verschoben, Text und Status unverändert | Hinweise wie „ναι heißt ja“ gelten nicht für Russisch |
+| 28.09.2026 | Lernsprache wählbar (nur Sprachen mit sichtbaren Einheiten), Wahl wird gespeichert; Fortschritt je Lernsprache (`<lang>:<pack>/<unit>`), alter Fortschritt zählt als Griechisch | Kronen für Griechisch sollen nicht für Russisch gelten |
+| 28.09.2026 | Quelle für russische Alltagswörter: Wörterbücher auf Грамота.ру; Umschrift vereinfacht nach BGN/PCGN mit Betonungsakzent | Frei online prüfbar, verbreitete Umschrift |

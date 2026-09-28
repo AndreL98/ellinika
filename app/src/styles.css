@@ -199,3 +199,10 @@ h2:focus, .instruction:focus { outline: none; }
 
 .result { text-align: center; }
 .result-xp { font-size: 2rem; font-weight: 700; color: var(--accent); margin: 0.5rem 0; }
+
+.lang-switch { border: 0; padding: 0; margin: 0 0 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.lang-switch legend { color: var(--muted); margin-bottom: 0.5rem; padding: 0; }
+.lang-option { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 44px; padding: 0.5rem 1rem; border: 2px solid var(--line); border-radius: 999px; background: var(--surface); cursor: pointer; }
+.lang-option:has(input:checked) { border-color: var(--accent); font-weight: 600; }
+.lang-option input { accent-color: var(--accent); margin: 0; }
+.lang-option:focus-within { outline: 3px solid var(--accent); outline-offset: 2px; }

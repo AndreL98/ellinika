@@ -22,7 +22,8 @@ export function parseProgress(data: unknown): Progress | null {
   const cleanUnits: Progress['units'] = {};
   for (const [key, value] of Object.entries(units)) {
     if (!isObject(value) || !isCount(value['crowns']) || !isCount(value['lessons'])) return null;
-    cleanUnits[key] = { crowns: Math.min(3, value['crowns']), lessons: value['lessons'] };
+    // Before 0.4.0 keys had no language prefix; only Greek existed then.
+    cleanUnits[key.includes(':') ? key : `el:${key}`] = { crowns: Math.min(3, value['crowns']), lessons: value['lessons'] };
   }
   return {
     version: 1,

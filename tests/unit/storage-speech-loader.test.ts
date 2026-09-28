@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { loadContent, type PackContent } from '../../app/src/content/loader';
+import { availableLearnLangs, loadContent, progressKeyOf, type PackContent } from '../../app/src/content/loader';
 import { applyLesson, emptyProgress } from '../../app/src/engine/progress';
 import { findVoice, Speaker } from '../../app/src/speech/speech';
 import { exportProgress, importProgress, loadProgress, parseProgress, saveProgress } from '../../app/src/storage/progress-store';
@@ -7,17 +7,23 @@ import { createLocalStorageStore, createMemoryStore } from '../../app/src/storag
 import core from '../fixtures/packs-e2e/demo/core.json';
 import el from '../fixtures/packs-e2e/demo/el.json';
 import gloss from '../fixtures/packs-e2e/demo/gloss/de.json';
+import ru from '../fixtures/packs-e2e/demo/ru.json';
 
 const pack = { core, languages: { el }, glosses: { de: gloss } } as unknown as PackContent;
 
 describe('progress storage', () => {
-  const progress = applyLesson(emptyProgress(), 'demo/greetings', { exercises: 8, mistakes: 0, perfect: true }, '2026-09-28');
+  const progress = applyLesson(emptyProgress(), 'el:demo/greetings', { exercises: 8, mistakes: 0, perfect: true }, '2026-09-28');
 
   it('saves and loads progress', async () => {
     const store = createMemoryStore();
     expect(await loadProgress(store)).toEqual(emptyProgress());
     await saveProgress(store, progress);
     expect(await loadProgress(store)).toEqual(progress);
+  });
+
+  it('moves progress saved before 0.4.0 (no language prefix) to Greek', () => {
+    const old = { ...emptyProgress(), units: { 'general/general.greetings': { crowns: 2, lessons: 3 } } };
+    expect(parseProgress(old)?.units).toEqual({ 'el:general/general.greetings': { crowns: 2, lessons: 3 } });
   });
 
   it('falls back to empty progress for broken data', async () => {
@@ -100,6 +106,30 @@ describe('loadContent', () => {
     const { units } = loadContent([pack], { learnLang: 'el', uiLang: 'de', includeUnapproved: false });
     const morning = units[0]?.items.find((i) => i.id === 'greetings.morning');
     expect(morning).toMatchObject({ text: 'καλημέρα', translit: 'kaliméra', translitAi: true, meaning: 'Guten Morgen', lang: 'el' });
+  });
+
+  it('keeps progress per learning language', () => {
+    const both = { ...pack, languages: { el, ru } } as unknown as PackContent;
+    const greek = loadContent([both], { learnLang: 'el', uiLang: 'de', includeUnapproved: false }).units[0];
+    const russian = loadContent([both], { learnLang: 'ru', uiLang: 'de', includeUnapproved: false }).units[0];
+    expect(greek?.key).toBe(russian?.key);
+    expect(greek?.progressKey).toBe(progressKeyOf('el', 'demo', 'greetings'));
+    expect(russian?.progressKey).toBe('ru:demo/greetings');
+  });
+
+  it('prefers the language-specific note over the general one', () => {
+    const both = { ...pack, languages: { el, ru } } as unknown as PackContent;
+    const find = (learnLang: string) =>
+      loadContent([both], { learnLang, uiLang: 'de', includeUnapproved: false }).units[0]?.items.find((i) => i.id === 'greetings.yes');
+    expect(find('ru')?.note).toBe('Nur im Russisch-Test sichtbar.');
+    expect(find('el')?.note).toBeUndefined();
+  });
+
+  it('lists learning languages with visible units in a fixed order', () => {
+    const both = { ...pack, languages: { ru, el } } as unknown as PackContent;
+    expect(availableLearnLangs([both], { uiLang: 'de', includeUnapproved: false })).toEqual(['el', 'ru']);
+    expect(availableLearnLangs([pack], { uiLang: 'de', includeUnapproved: false })).toEqual(['el']);
+    expect(availableLearnLangs([both], { uiLang: 'es', includeUnapproved: false })).toEqual([]);
   });
 
   it('skips packs without the learning or UI language', () => {

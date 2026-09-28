@@ -1,0 +1,1204 @@
+{
+  "lang": "ru",
+  "script": "Cyrl",
+  "dir": "ltr",
+  "items": {
+    "general.greetings.1": {
+      "text": "Привет",
+      "translit": "privét",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "pri-WJET"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Informell zu Freunden und Familie."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82",
+        "section": "привет"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.2": {
+      "text": "Здравствуйте",
+      "translit": "zdrávstvuyte",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ZDRAST-wuj-tje"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Höflich oder zu mehreren Personen. Das erste в wird nicht gesprochen."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5",
+        "section": "здравствуйте"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.3": {
+      "text": "Доброе утро",
+      "translit": "dóbroye útro",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "DOB-ra-je UT-ra"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%83%D1%82%D1%80%D0%BE",
+        "section": "утро"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.4": {
+      "text": "Добрый вечер",
+      "translit": "dóbryy vécher",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "DOB-ryj WJE-tschir"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B2%D0%B5%D1%87%D0%B5%D1%80",
+        "section": "вечер"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.5": {
+      "text": "Спокойной ночи",
+      "translit": "spokóynoy nóchi",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "spa-KOJ-noj NO-tschi"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Wörtlich: „Ruhige Nacht“."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%BD%D0%BE%D1%87%D1%8C",
+        "section": "ночь"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.6": {
+      "text": "До свидания",
+      "translit": "do svidániya",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "da swi-DA-ni-ja"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Wörtlich: „Bis zum Wiedersehen“. Locker: пока (paká)."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D0%B2%D0%B8%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5",
+        "section": "свидание"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.7": {
+      "text": "Как дела?",
+      "translit": "kak delá?",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "kak dje-LA"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Wörtlich: „Wie sind die Dinge?“ Locker, meist per du."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B4%D0%B5%D0%BB%D0%BE",
+        "section": "дело"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.8": {
+      "text": "У меня всё хорошо, спасибо.",
+      "translit": "u menyá vsyo khoroshó, spasíbo",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "u mi-NJA FSJO cha-ra-SCHO, spa-SI-ba"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.9": {
+      "text": "Очень приятно.",
+      "translit": "óchen' priyátno",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "O-tschin pri-JAT-na"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Beim Kennenlernen; wörtlich: „Sehr angenehm.“"
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%BD%D0%BE",
+        "section": "приятно"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.10": {
+      "text": "Меня зовут Мария.",
+      "translit": "menyá zovút Maríya",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "mi-NJA za-WUT ma-RI-ja"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Wörtlich: „Mich ruft man Maria.“"
+      },
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.1": {
+      "text": "спасибо",
+      "translit": "spasíbo",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "spa-SI-ba"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE",
+        "section": "спасибо"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.2": {
+      "text": "пожалуйста",
+      "translit": "pozháluysta",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "pa-ZHA-lu-sta"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Auch als Antwort auf „danke“ („gern geschehen“). Schnell gesprochen oft „pa-ZHAL-sta“."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0",
+        "section": "пожалуйста"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.3": {
+      "text": "да",
+      "translit": "da",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "DA"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B4%D0%B0",
+        "section": "да"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.4": {
+      "text": "нет",
+      "translit": "net",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "NJET"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%BD%D0%B5%D1%82",
+        "section": "нет"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.5": {
+      "text": "извините",
+      "translit": "izviníte",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "iz-wi-NI-tje"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Höflich (per Sie); per du: извини (izviní)."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B8%D0%B7%D0%B2%D0%B8%D0%BD%D0%B8%D1%82%D1%8C",
+        "section": "извинить"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.6": {
+      "text": "большое спасибо",
+      "translit": "bol'shóye spasíbo",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "bal-SCHO-je spa-SI-ba"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9",
+        "section": "большой"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.7": {
+      "text": "Ничего страшного.",
+      "translit": "nichegó stráshnogo",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ni-tschi-WO STRASCH-na-wa"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "In den Endungen -его/-ого wird г wie w gesprochen."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D1%8B%D0%B9",
+        "section": "страшный"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.8": {
+      "text": "Я не понимаю.",
+      "translit": "ya ne ponimáyu",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ja nje pa-ni-MA-ju"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.9": {
+      "text": "Вы говорите по-немецки?",
+      "translit": "vy govoríte po-nemétski?",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "wy ga-wa-RI-tje pa-nje-MJETS-ki"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.10": {
+      "text": "Вы можете говорить медленнее?",
+      "translit": "vy mózhete govorít' médlenneye?",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "wy MO-zhy-tje ga-wa-RIT MJED-lje-nje-je"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.1": {
+      "text": "один",
+      "translit": "odín",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "a-DIN"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Männliche Form; weiblich одна (odná), sächlich одно (odnó)."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%BE%D0%B4%D0%B8%D0%BD",
+        "section": "один"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.2": {
+      "text": "два",
+      "translit": "dva",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "DWA"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Weiblich: две (dve)."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B4%D0%B2%D0%B0",
+        "section": "два"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.3": {
+      "text": "три",
+      "translit": "tri",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "TRI"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%82%D1%80%D0%B8",
+        "section": "три"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.4": {
+      "text": "четыре",
+      "translit": "chetýre",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "tschi-TY-rje"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%87%D0%B5%D1%82%D1%8B%D1%80%D0%B5",
+        "section": "четыре"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.5": {
+      "text": "пять",
+      "translit": "pyat'",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "PJAT"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%BF%D1%8F%D1%82%D1%8C",
+        "section": "пять"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.6": {
+      "text": "шесть",
+      "translit": "shest'",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "SCHEST"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%88%D0%B5%D1%81%D1%82%D1%8C",
+        "section": "шесть"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.7": {
+      "text": "семь",
+      "translit": "sem'",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "SJEM"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D0%B5%D0%BC%D1%8C",
+        "section": "семь"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.8": {
+      "text": "восемь",
+      "translit": "vósem'",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "WO-sim"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B2%D0%BE%D1%81%D0%B5%D0%BC%D1%8C",
+        "section": "восемь"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.9": {
+      "text": "девять",
+      "translit": "dévyat'",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "DJE-wit"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B4%D0%B5%D0%B2%D1%8F%D1%82%D1%8C",
+        "section": "девять"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.10": {
+      "text": "десять",
+      "translit": "désyat'",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "DJE-sit"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B4%D0%B5%D1%81%D1%8F%D1%82%D1%8C",
+        "section": "десять"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.11": {
+      "text": "Я хочу два кофе, пожалуйста.",
+      "translit": "ya khochú dva kófe, pozháluysta",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ja cha-TSCHU DWA KO-fe, pa-ZHA-lu-sta"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "кофе ist männlich und wird nicht gebeugt."
+      },
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.1": {
+      "text": "вода",
+      "translit": "vodá",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "wa-DA"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Im Russischen gibt es keine Artikel."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B2%D0%BE%D0%B4%D0%B0",
+        "section": "вода"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.2": {
+      "text": "кофе",
+      "translit": "kófe",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "KO-fe"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%BA%D0%BE%D1%84%D0%B5",
+        "section": "кофе"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.3": {
+      "text": "хлеб",
+      "translit": "khleb",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "CHLJEP"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Am Wortende wird б wie p gesprochen."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%85%D0%BB%D0%B5%D0%B1",
+        "section": "хлеб"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.4": {
+      "text": "вино",
+      "translit": "vinó",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "wi-NO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B2%D0%B8%D0%BD%D0%BE",
+        "section": "вино"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.5": {
+      "text": "сыр",
+      "translit": "syr",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "SYR"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D1%8B%D1%80",
+        "section": "сыр"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.6": {
+      "text": "рыба",
+      "translit": "rýba",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "RY-ba"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%80%D1%8B%D0%B1%D0%B0",
+        "section": "рыба"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.7": {
+      "text": "фрукты",
+      "translit": "frúkty",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "FRUK-ty"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Wörtlich „die Früchte“ (Mehrzahl)."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%84%D1%80%D1%83%D0%BA%D1%82",
+        "section": "фрукт"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.8": {
+      "text": "счёт",
+      "translit": "schyot",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "SCHTSCHOT"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D1%87%D1%91%D1%82",
+        "section": "счёт"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.9": {
+      "text": "Воду, пожалуйста.",
+      "translit": "vódu, pozháluysta",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "WO-du, pa-ZHA-lu-sta"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "вода wird hier zu воду (Akkusativ), die Betonung wandert nach vorn."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B2%D0%BE%D0%B4%D0%B0",
+        "section": "вода"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.10": {
+      "text": "Счёт, пожалуйста.",
+      "translit": "schyot, pozháluysta",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "SCHTSCHOT, pa-ZHA-lu-sta"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D1%87%D1%91%D1%82",
+        "section": "счёт"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.11": {
+      "text": "Это очень вкусно.",
+      "translit": "éto óchen' vkúsno",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "E-ta O-tschin FKUS-na"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.1": {
+      "text": "семья",
+      "translit": "sem'yá",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "sim-JA"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D0%B5%D0%BC%D1%8C%D1%8F",
+        "section": "семья"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.2": {
+      "text": "мать",
+      "translit": "mat'",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "MAT"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Im Alltag meist мама (máma)."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%BC%D0%B0%D1%82%D1%8C",
+        "section": "мать"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.3": {
+      "text": "отец",
+      "translit": "otéts",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "a-TJETS"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Im Alltag meist папа (pápa)."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%BE%D1%82%D0%B5%D1%86",
+        "section": "отец"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.4": {
+      "text": "брат",
+      "translit": "brat",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "BRAT"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B1%D1%80%D0%B0%D1%82",
+        "section": "брат"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.5": {
+      "text": "сестра",
+      "translit": "sestrá",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "sis-TRA"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D0%B5%D1%81%D1%82%D1%80%D0%B0",
+        "section": "сестра"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.6": {
+      "text": "сын",
+      "translit": "syn",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "SYN"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D1%8B%D0%BD",
+        "section": "сын"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.7": {
+      "text": "дочь",
+      "translit": "doch'",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "DOTSCH"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B4%D0%BE%D1%87%D1%8C",
+        "section": "дочь"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.8": {
+      "text": "друг",
+      "translit": "drug",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "DRUK"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Eine Freundin heißt подруга (podrúga)."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B4%D1%80%D1%83%D0%B3",
+        "section": "друг"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.9": {
+      "text": "Это моя мама.",
+      "translit": "éto moyá máma",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "E-ta ma-JA MA-ma"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "мама ist das übliche Alltagswort für die eigene Mutter."
+      },
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.10": {
+      "text": "У меня есть брат.",
+      "translit": "u menyá yest' brat",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "u mi-NJA JEST BRAT"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Wörtlich: „Bei mir gibt es einen Bruder.“"
+      },
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.1": {
+      "text": "где?",
+      "translit": "gde?",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "GDJE"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B3%D0%B4%D0%B5",
+        "section": "где"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.2": {
+      "text": "когда?",
+      "translit": "kogdá?",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "kag-DA"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0",
+        "section": "когда"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.3": {
+      "text": "что?",
+      "translit": "chto?",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "SCHTO"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "чт wird hier wie „scht“ gesprochen."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%87%D1%82%D0%BE",
+        "section": "что"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.4": {
+      "text": "сегодня",
+      "translit": "segódnya",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "si-WOD-nja"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "г wird hier wie w gesprochen."
+      },
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F",
+        "section": "сегодня"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.5": {
+      "text": "завтра",
+      "translit": "závtra",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ZAF-tra"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B7%D0%B0%D0%B2%D1%82%D1%80%D0%B0",
+        "section": "завтра"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.6": {
+      "text": "сейчас",
+      "translit": "seychás",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "si-TSCHAS"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%81%D0%B5%D0%B9%D1%87%D0%B0%D1%81",
+        "section": "сейчас"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.7": {
+      "text": "здесь",
+      "translit": "zdes'",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ZDJES"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D0%B7%D0%B4%D0%B5%D1%81%D1%8C",
+        "section": "здесь"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.8": {
+      "text": "там",
+      "translit": "tam",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "TAM"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/poisk?mode=slovari&query=%D1%82%D0%B0%D0%BC",
+        "section": "там"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.9": {
+      "text": "Где здесь туалет?",
+      "translit": "gde zdes' tualét?",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "gdje ZDJES tu-a-LJET"
+      },
+      "pron_status": "ai_suggestion",
+      "note": {
+        "de": "Wörtlich: „Wo hier Toilette?“ – „ist“ fällt im Präsens weg."
+      },
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.10": {
+      "text": "Сколько это стоит?",
+      "translit": "skól'ko éto stóit?",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "SKOL-ka E-ta STO-it"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.11": {
+      "text": "Я не знаю.",
+      "translit": "ya ne znáyu",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ja nje ZNA-ju"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Грамота.ру – справочно-информационный портал «Русский язык», Словари",
+        "url": "https://gramota.ru/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  }
+}
