@@ -107,3 +107,21 @@ describe('loadContent', () => {
     expect(loadContent([pack], { learnLang: 'el', uiLang: 'es', includeUnapproved: true }).units).toEqual([]);
   });
 });
+
+describe('openBestStore', () => {
+  it('falls back to memory when no browser storage exists', async () => {
+    const { openBestStore } = await import('../../app/src/storage/store');
+    expect((await openBestStore()).kind).toBe('memory');
+  });
+
+  it('falls back when IndexedDB never answers', async () => {
+    const { openBestStore } = await import('../../app/src/storage/store');
+    const hanging = { open: () => ({}) } as unknown as IDBFactory;
+    vi.stubGlobal('indexedDB', hanging);
+    try {
+      expect((await openBestStore(50)).kind).toBe('memory');
+    } finally {
+      vi.unstubAllGlobals();
+    }
+  });
+});

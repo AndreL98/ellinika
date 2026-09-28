@@ -47,10 +47,20 @@ export async function createIndexedDbStore(factory: IDBFactory): Promise<KeyValu
   };
 }
 
-/** IndexedDB first, then localStorage, then memory (e.g. private mode without storage). */
-export async function openBestStore(): Promise<KeyValueStore> {
+function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+  return Promise.race([
+    promise,
+    new Promise<T>((_, reject) => setTimeout(() => reject(new Error('timeout')), ms)),
+  ]);
+}
+
+/**
+ * IndexedDB first, then localStorage, then memory (e.g. private mode or sandboxed frames).
+ * Opening IndexedDB can hang in some sandboxes, so it has a time limit.
+ */
+export async function openBestStore(timeoutMs = 1500): Promise<KeyValueStore> {
   try {
-    if (typeof indexedDB !== 'undefined') return await createIndexedDbStore(indexedDB);
+    if (typeof indexedDB !== 'undefined') return await withTimeout(createIndexedDbStore(indexedDB), timeoutMs);
   } catch {
     // fall through
   }

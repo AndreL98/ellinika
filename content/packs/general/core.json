@@ -1,1 +1,554 @@
-{ "pack": "general", "version": 1, "units": [], "items": [] }
+{
+  "pack": "general",
+  "version": 1,
+  "units": [
+    {
+      "id": "general.greetings",
+      "icon": "👋",
+      "order": 10,
+      "items": [
+        "general.greetings.1",
+        "general.greetings.2",
+        "general.greetings.3",
+        "general.greetings.4",
+        "general.greetings.5",
+        "general.greetings.6",
+        "general.greetings.7",
+        "general.greetings.8",
+        "general.greetings.9",
+        "general.greetings.10"
+      ]
+    },
+    {
+      "id": "general.courtesy",
+      "icon": "🙏",
+      "order": 20,
+      "items": [
+        "general.courtesy.1",
+        "general.courtesy.2",
+        "general.courtesy.3",
+        "general.courtesy.4",
+        "general.courtesy.5",
+        "general.courtesy.6",
+        "general.courtesy.7",
+        "general.courtesy.8",
+        "general.courtesy.9",
+        "general.courtesy.10"
+      ]
+    },
+    {
+      "id": "general.numbers",
+      "icon": "🔢",
+      "order": 30,
+      "items": [
+        "general.numbers.1",
+        "general.numbers.2",
+        "general.numbers.3",
+        "general.numbers.4",
+        "general.numbers.5",
+        "general.numbers.6",
+        "general.numbers.7",
+        "general.numbers.8",
+        "general.numbers.9",
+        "general.numbers.10",
+        "general.numbers.11"
+      ]
+    },
+    {
+      "id": "general.food",
+      "icon": "☕",
+      "order": 40,
+      "items": [
+        "general.food.1",
+        "general.food.2",
+        "general.food.3",
+        "general.food.4",
+        "general.food.5",
+        "general.food.6",
+        "general.food.7",
+        "general.food.8",
+        "general.food.9",
+        "general.food.10",
+        "general.food.11"
+      ]
+    },
+    {
+      "id": "general.family",
+      "icon": "👪",
+      "order": 50,
+      "items": [
+        "general.family.1",
+        "general.family.2",
+        "general.family.3",
+        "general.family.4",
+        "general.family.5",
+        "general.family.6",
+        "general.family.7",
+        "general.family.8",
+        "general.family.9",
+        "general.family.10"
+      ]
+    },
+    {
+      "id": "general.everyday",
+      "icon": "🏙️",
+      "order": 60,
+      "items": [
+        "general.everyday.1",
+        "general.everyday.2",
+        "general.everyday.3",
+        "general.everyday.4",
+        "general.everyday.5",
+        "general.everyday.6",
+        "general.everyday.7",
+        "general.everyday.8",
+        "general.everyday.9",
+        "general.everyday.10",
+        "general.everyday.11"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "general.greetings.1",
+      "kind": "phrase",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "general.greetings.2",
+      "kind": "phrase",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "general.greetings.3",
+      "kind": "word",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "general.greetings.4",
+      "kind": "word",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "general.greetings.5",
+      "kind": "word",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "general.greetings.6",
+      "kind": "word",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "general.greetings.7",
+      "kind": "phrase",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "general.greetings.8",
+      "kind": "sentence",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "general.greetings.9",
+      "kind": "phrase",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "general.greetings.10",
+      "kind": "sentence",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "general.courtesy.1",
+      "kind": "word",
+      "tags": [
+        "courtesy"
+      ]
+    },
+    {
+      "id": "general.courtesy.2",
+      "kind": "word",
+      "tags": [
+        "courtesy"
+      ]
+    },
+    {
+      "id": "general.courtesy.3",
+      "kind": "word",
+      "tags": [
+        "courtesy"
+      ]
+    },
+    {
+      "id": "general.courtesy.4",
+      "kind": "word",
+      "tags": [
+        "courtesy"
+      ]
+    },
+    {
+      "id": "general.courtesy.5",
+      "kind": "word",
+      "tags": [
+        "courtesy"
+      ]
+    },
+    {
+      "id": "general.courtesy.6",
+      "kind": "phrase",
+      "tags": [
+        "courtesy"
+      ]
+    },
+    {
+      "id": "general.courtesy.7",
+      "kind": "phrase",
+      "tags": [
+        "courtesy"
+      ]
+    },
+    {
+      "id": "general.courtesy.8",
+      "kind": "phrase",
+      "tags": [
+        "courtesy"
+      ]
+    },
+    {
+      "id": "general.courtesy.9",
+      "kind": "phrase",
+      "tags": [
+        "courtesy"
+      ]
+    },
+    {
+      "id": "general.courtesy.10",
+      "kind": "sentence",
+      "tags": [
+        "courtesy"
+      ]
+    },
+    {
+      "id": "general.numbers.1",
+      "kind": "word",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "general.numbers.2",
+      "kind": "word",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "general.numbers.3",
+      "kind": "word",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "general.numbers.4",
+      "kind": "word",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "general.numbers.5",
+      "kind": "word",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "general.numbers.6",
+      "kind": "word",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "general.numbers.7",
+      "kind": "word",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "general.numbers.8",
+      "kind": "word",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "general.numbers.9",
+      "kind": "word",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "general.numbers.10",
+      "kind": "word",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "general.numbers.11",
+      "kind": "sentence",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "general.food.1",
+      "kind": "word",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "general.food.2",
+      "kind": "word",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "general.food.3",
+      "kind": "word",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "general.food.4",
+      "kind": "word",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "general.food.5",
+      "kind": "word",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "general.food.6",
+      "kind": "word",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "general.food.7",
+      "kind": "word",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "general.food.8",
+      "kind": "word",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "general.food.9",
+      "kind": "sentence",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "general.food.10",
+      "kind": "sentence",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "general.food.11",
+      "kind": "sentence",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "general.family.1",
+      "kind": "word",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "general.family.2",
+      "kind": "word",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "general.family.3",
+      "kind": "word",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "general.family.4",
+      "kind": "word",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "general.family.5",
+      "kind": "word",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "general.family.6",
+      "kind": "word",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "general.family.7",
+      "kind": "word",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "general.family.8",
+      "kind": "word",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "general.family.9",
+      "kind": "sentence",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "general.family.10",
+      "kind": "sentence",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "general.everyday.1",
+      "kind": "word",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "general.everyday.2",
+      "kind": "word",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "general.everyday.3",
+      "kind": "word",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "general.everyday.4",
+      "kind": "word",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "general.everyday.5",
+      "kind": "word",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "general.everyday.6",
+      "kind": "word",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "general.everyday.7",
+      "kind": "word",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "general.everyday.8",
+      "kind": "word",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "general.everyday.9",
+      "kind": "sentence",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "general.everyday.10",
+      "kind": "sentence",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "general.everyday.11",
+      "kind": "phrase",
+      "tags": [
+        "everyday"
+      ]
+    }
+  ]
+}

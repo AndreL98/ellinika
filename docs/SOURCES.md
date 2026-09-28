@@ -5,4 +5,4 @@ sources in its `source` field. This list is still open (see APP.md, open questio
 
 | Language | Text | Church / publisher | Edition / URL | License / permission | Checked by |
 |---|---|---|---|---|---|
-| – | – | – | – | – | – |
+| el | Alltagswortschatz (Paket `general`) | Λεξικό της κοινής νεοελληνικής, Ινστιτούτο Νεοελληνικών Σπουδών (Ίδρυμα Μανόλη Τριανταφυλλίδη), über die Πύλη για την ελληνική γλώσσα | [greek-language.gr](https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/) | Nur zum Abgleich von Schreibung und Bedeutung; keine Wörterbuchtexte übernommen. Einzelwörter und übliche Wendungen sind nicht urheberrechtlich geschützt. Beispielsätze und Übersetzungen: eigene Formulierungen (CC BY-SA 4.0) | offen |

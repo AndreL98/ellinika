@@ -191,6 +191,7 @@ h2:focus, .instruction:focus { outline: none; }
 .feedback:empty { display: none; }
 .feedback { border-radius: var(--radius); padding: 0.75rem 1rem; }
 .feedback p { margin: 0; }
+.feedback .feedback-note { margin-top: 0.375rem; color: var(--muted); font-size: 0.9375rem; }
 .feedback.is-correct { background: var(--right-bg); border: 2px solid var(--right); }
 .feedback.is-wrong { background: var(--wrong-bg); border: 2px solid var(--wrong); }
 .lesson-actions { display: flex; justify-content: flex-end; }

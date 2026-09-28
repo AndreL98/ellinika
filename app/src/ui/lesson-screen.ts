@@ -83,6 +83,8 @@ export function renderLesson(root: HTMLElement, unit: LearnUnit, ctx: AppContext
           ? el('p', { textContent: t('lesson.correct') })
           : el('p', {}, [`${t('lesson.wrong')} `, solutionNode(solutionText(exercise), inLearning && exercise.type !== 'match_pairs', unit, ctx)]),
       );
+      const note = 'item' in exercise ? exercise.item.note : undefined;
+      if (note) feedback.append(el('p', { className: 'feedback-note', textContent: note, lang: ctx.uiLang }));
       action.textContent = t('lesson.continue');
       action.focus();
     });

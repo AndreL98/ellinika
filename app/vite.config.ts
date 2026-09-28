@@ -29,7 +29,7 @@ export default defineConfig(({ mode }) => {
       fs: { allow: [rootDir] },
     },
     build: {
-      outDir: e2e ? 'dist-e2e' : 'dist',
+      outDir: e2e ? 'dist-e2e' : mode === 'review' ? 'dist-review' : 'dist',
       emptyOutDir: true,
     },
     plugins: [serviceWorkerPlugin(pkg.version)],
