@@ -7,7 +7,8 @@ test('app renders in German with correct language attributes', async ({ page }) 
   await expect(page.getByRole('heading', { level: 2, name: 'Lernpfad' })).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang', 'de');
   await expect(page.locator('html')).toHaveAttribute('dir', 'ltr');
-  await expect(page.getByText('Du lernst: Griechisch')).toBeVisible();
+  await expect(page.getByRole('group', { name: 'Welche Sprache möchtest du lernen?' })).toBeVisible();
+  await expect(page.getByRole('radio', { name: 'Griechisch' })).toBeChecked();
 });
 
 test('skip link moves keyboard focus to the main content', async ({ page }) => {

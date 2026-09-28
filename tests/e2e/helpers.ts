@@ -4,19 +4,24 @@ import { tokenize } from '../../app/src/engine/tokens';
 
 type Texts = { items: Record<string, { text?: string; meaning?: string }> };
 const read = (path: string) => JSON.parse(readFileSync(new URL(path, import.meta.url), 'utf8')) as Texts;
-const el = read('../fixtures/packs-e2e/demo/el.json');
 const de = read('../fixtures/packs-e2e/demo/gloss/de.json');
 
-/** Dictionary of the e2e test pack: Greek text → German meaning and back. */
-export const meaningOf = new Map<string, string>();
-export const textOf = new Map<string, string>();
-for (const [id, entry] of Object.entries(el.items)) {
-  const meaning = de.items[id]?.meaning;
-  if (entry.text && meaning) {
-    meaningOf.set(entry.text, meaning);
-    textOf.set(meaning, entry.text);
+/** Dictionary of the e2e test pack per learning language: text → German meaning and back. */
+function dictionary(lang: string) {
+  const texts = read(`../fixtures/packs-e2e/demo/${lang}.json`);
+  const meaningOf = new Map<string, string>();
+  const textOf = new Map<string, string>();
+  for (const [id, entry] of Object.entries(texts.items)) {
+    const meaning = de.items[id]?.meaning;
+    if (entry.text && meaning) {
+      meaningOf.set(entry.text, meaning);
+      textOf.set(meaning, entry.text);
+    }
   }
+  return { meaningOf, textOf };
 }
+const dictionaries = { el: dictionary('el'), ru: dictionary('ru') };
+type Lang = keyof typeof dictionaries;
 
 const lookup = (map: Map<string, string>, key: string) => {
   const value = map.get(key.trim());
@@ -31,7 +36,8 @@ async function clickTiles(exercise: Locator, tokens: string[]) {
 }
 
 /** Answers the current exercise correctly (or wrongly) using the fixture dictionary. */
-export async function answer(page: Page, correct = true): Promise<string> {
+export async function answer(page: Page, correct = true, lang: Lang = 'el'): Promise<string> {
+  const { meaningOf, textOf } = dictionaries[lang];
   const exercise = page.locator('[data-exercise]');
   const type = (await exercise.getAttribute('data-exercise')) ?? '';
   const promptLearn = async () => (await exercise.locator('[data-prompt] .learn-text').textContent()) ?? '';
@@ -82,11 +88,11 @@ export async function answer(page: Page, correct = true): Promise<string> {
 }
 
 /** Plays the rest of the lesson correctly and returns the exercise types seen. */
-export async function finishLesson(page: Page): Promise<string[]> {
+export async function finishLesson(page: Page, lang: Lang = 'el'): Promise<string[]> {
   const types: string[] = [];
   while (await page.locator('[data-screen="lesson"]').isVisible()) {
     await expect(page.locator('[data-exercise]')).toBeVisible();
-    types.push(await answer(page, true));
+    types.push(await answer(page, true, lang));
     await expect(page.locator('[data-screen="lesson"], [data-screen="result"]')).toBeVisible();
   }
   return types;

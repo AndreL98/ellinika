@@ -23,7 +23,6 @@
   "items": {
     "general.greetings.1": {
       "meaning": "Hallo (per du)",
-      "note": "Informell zu einer Person; auch zum Abschied.",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B3%CE%B5%CE%B9%CE%B1"
@@ -34,7 +33,6 @@
     },
     "general.greetings.2": {
       "meaning": "Hallo (per Sie)",
-      "note": "Höflich oder zu mehreren Personen; auch zum Abschied.",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B3%CE%B5%CE%B9%CE%B1"
@@ -45,7 +43,6 @@
     },
     "general.greetings.3": {
       "meaning": "Guten Morgen",
-      "note": "Bis etwa zum Mittag.",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CE%BB%CE%B7%CE%BC%CE%AD%CF%81%CE%B1"
@@ -56,7 +53,6 @@
     },
     "general.greetings.4": {
       "meaning": "Guten Abend",
-      "note": "Ab dem Nachmittag.",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CE%BB%CE%B7%CF%83%CF%80%CE%AD%CF%81%CE%B1"
@@ -67,7 +63,6 @@
     },
     "general.greetings.5": {
       "meaning": "Gute Nacht",
-      "note": "Zum Abschied am späten Abend.",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CE%BB%CE%B7%CE%BD%CF%8D%CF%87%CF%84%CE%B1"
@@ -88,7 +83,6 @@
     },
     "general.greetings.7": {
       "meaning": "Wie geht es dir?",
-      "note": "Das griechische Fragezeichen sieht aus wie ein Semikolon (;).",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%AC%CE%BD%CF%89"
@@ -109,7 +103,6 @@
     },
     "general.greetings.9": {
       "meaning": "Freut mich.",
-      "note": "Beim Kennenlernen.",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%87%CE%B1%CE%AF%CF%81%CF%89"
@@ -120,7 +113,6 @@
     },
     "general.greetings.10": {
       "meaning": "Ich heiße Maria.",
-      "note": "Wörtlich: „Mich nennen sie Maria.“",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
@@ -141,7 +133,6 @@
     },
     "general.courtesy.2": {
       "meaning": "Bitte",
-      "note": "Auch als Antwort auf „danke“ („gern geschehen“).",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%B1%CF%81%CE%B1%CE%BA%CE%B1%CE%BB%CF%8E"
@@ -152,7 +143,6 @@
     },
     "general.courtesy.3": {
       "meaning": "Ja",
-      "note": "Klingt für deutsche Ohren wie „nee“, bedeutet aber „ja“.",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BD%CE%B1%CE%B9"
@@ -293,7 +283,6 @@
     },
     "general.numbers.7": {
       "meaning": "sieben",
-      "note": "Im Alltag oft auch εφτά (eftá).",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CF%80%CF%84%CE%AC"
@@ -304,7 +293,6 @@
     },
     "general.numbers.8": {
       "meaning": "acht",
-      "note": "Im Alltag oft auch οχτώ (ochtó).",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BF%CE%BA%CF%84%CF%8E"
@@ -315,7 +303,6 @@
     },
     "general.numbers.9": {
       "meaning": "neun",
-      "note": "Im Alltag oft auch εννιά (enjá).",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CE%BD%CE%BD%CE%AD%CE%B1"
@@ -346,7 +333,6 @@
     },
     "general.food.1": {
       "meaning": "das Wasser",
-      "note": "Griechische Nomen lernst du am besten mit Artikel (ο, η, το).",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BD%CE%B5%CF%81%CF%8C"
@@ -407,7 +393,6 @@
     },
     "general.food.7": {
       "meaning": "das Obst",
-      "note": "Wörtlich „die Früchte“ (Mehrzahl).",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%86%CF%81%CE%BF%CF%8D%CF%84%CE%BF"
@@ -488,7 +473,6 @@
     },
     "general.family.4": {
       "meaning": "der Bruder",
-      "note": "Im Alltag oft auch αδερφός (adherfós).",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CE%B4%CE%B5%CE%BB%CF%86%CF%8C%CF%82"
@@ -499,7 +483,6 @@
     },
     "general.family.5": {
       "meaning": "die Schwester",
-      "note": "Im Alltag oft auch αδερφή (adherfí).",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CE%B4%CE%B5%CE%BB%CF%86%CE%AE"
@@ -650,7 +633,6 @@
     },
     "general.everyday.10": {
       "meaning": "Wie viel kostet das?",
-      "note": "Wörtlich: „Wie viel macht das?“",
       "source": {
         "title": "Übersetzung: Logos-Projekt (KI-Vorschlag); Bedeutung nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"

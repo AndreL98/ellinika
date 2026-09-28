@@ -30,7 +30,8 @@
     "start": "Lektion starten",
     "practice": "Wiederholen",
     "items_one": "{{count}} Begriff",
-    "items_other": "{{count}} Begriffe"
+    "items_other": "{{count}} Begriffe",
+    "choose_lang": "Welche Sprache möchtest du lernen?"
   },
   "lesson": {
     "close": "Lektion beenden",

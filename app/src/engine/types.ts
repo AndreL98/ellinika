@@ -25,6 +25,8 @@ export interface LearnItem {
 export interface LearnUnit {
   /** Unique across packs: "<pack>/<unit-id>". */
   key: string;
+  /** Key in the saved progress: "<learn-lang>:<pack>/<unit-id>", so every language has its own crowns. */
+  progressKey: string;
   pack: string;
   id: string;
   icon?: string;

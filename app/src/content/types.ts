@@ -35,6 +35,8 @@ export interface ItemText {
   translit_status?: ReviewFlag;
   pron?: Record<string, string>;
   pron_status?: ReviewFlag;
+  /** Hint for this learning language only, per UI language. */
+  note?: Record<string, string>;
   audio?: string | null;
   source: Source;
   status: ContentStatus;

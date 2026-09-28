@@ -9,6 +9,9 @@ export interface AppContext {
   t: TranslateFn;
   uiLang: string;
   learnLang: string;
+  /** Learning languages with visible content, in display order. */
+  learnLangs: string[];
+  setLearnLang(lang: string): Promise<void>;
   content: LoadedContent;
   speaker: Speaker;
   random: Random;

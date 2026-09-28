@@ -1,0 +1,67 @@
+{
+  "lang": "ru",
+  "script": "Cyrl",
+  "dir": "ltr",
+  "items": {
+    "greetings.morning": {
+      "text": "доброе утро",
+      "translit": "dóbroye útro",
+      "source": {
+        "title": "Test fixture"
+      },
+      "status": "approved",
+      "reviewed_by": "Test",
+      "reviewed_at": "2026-09-28"
+    },
+    "greetings.thanks": {
+      "text": "спасибо",
+      "translit": "spasíbo",
+      "source": {
+        "title": "Test fixture"
+      },
+      "status": "approved",
+      "reviewed_by": "Test",
+      "reviewed_at": "2026-09-28"
+    },
+    "greetings.yes": {
+      "text": "да",
+      "translit": "da",
+      "source": {
+        "title": "Test fixture"
+      },
+      "status": "approved",
+      "reviewed_by": "Test",
+      "reviewed_at": "2026-09-28",
+      "note": {
+        "de": "Nur im Russisch-Test sichtbar."
+      }
+    },
+    "greetings.no": {
+      "text": "нет",
+      "translit": "net",
+      "source": {
+        "title": "Test fixture"
+      },
+      "status": "approved",
+      "reviewed_by": "Test",
+      "reviewed_at": "2026-09-28"
+    },
+    "greetings.from-germany": {
+      "text": "Я из Германии.",
+      "translit": "ya iz Germánii.",
+      "source": {
+        "title": "Test fixture"
+      },
+      "status": "approved",
+      "reviewed_by": "Test",
+      "reviewed_at": "2026-09-28"
+    },
+    "greetings.hidden": {
+      "text": "скрыто",
+      "source": {
+        "title": "Test fixture"
+      },
+      "status": "draft"
+    }
+  }
+}

@@ -18,7 +18,7 @@ function crownRow(count: number): HTMLElement {
 }
 
 function unitCard(unit: LearnUnit, ctx: AppContext): HTMLElement {
-  const crowns = crownsOf(ctx.getProgress(), unit.key);
+  const crowns = crownsOf(ctx.getProgress(), unit.progressKey);
   return el('li', { className: 'card unit', dataset: { unit: unit.key } }, [
     el('div', { className: 'unit-head' }, [
       unit.icon ? el('span', { className: 'unit-icon', textContent: unit.icon, attrs: { 'aria-hidden': 'true' } }) : null,
@@ -38,6 +38,20 @@ function unitCard(unit: LearnUnit, ctx: AppContext): HTMLElement {
   ]);
 }
 
+/** Radio group to choose the learning language; only shown if there is more than one. */
+function languageSwitch(ctx: AppContext): HTMLElement | null {
+  if (ctx.learnLangs.length < 2) return null;
+  const name = 'learn-lang';
+  return el('fieldset', { className: 'lang-switch' }, [
+    el('legend', { textContent: ctx.t('path.choose_lang') }),
+    ...ctx.learnLangs.map((lang) => {
+      const input = el('input', { type: 'radio', name, value: lang, checked: lang === ctx.learnLang });
+      input.addEventListener('change', () => void ctx.setLearnLang(lang));
+      return el('label', { className: 'lang-option' }, [input, el('span', { textContent: languageName(lang, ctx.uiLang) })]);
+    }),
+  ]);
+}
+
 /** Learning path: all units grouped by pack. */
 export function renderPath(root: HTMLElement, ctx: AppContext): void {
   const { t, content } = ctx;
@@ -45,7 +59,8 @@ export function renderPath(root: HTMLElement, ctx: AppContext): void {
   root.replaceChildren(
     el('section', { className: 'path', dataset: { screen: 'path' } }, [
       el('h2', { textContent: t('path.title'), tabIndex: -1 }),
-      el('p', { className: 'muted', textContent: t('path.learning', { lang: languageName(ctx.learnLang, ctx.uiLang) }) }),
+      languageSwitch(ctx) ??
+        el('p', { className: 'muted', textContent: t('path.learning', { lang: languageName(ctx.learnLang, ctx.uiLang) }) }),
       ctx.includeUnapproved ? el('p', { className: 'notice', textContent: t('path.dev_notice') }) : null,
       packs.length === 0 ? el('p', { className: 'card', textContent: t('path.empty') }) : null,
       ...packs.map((pack) =>
