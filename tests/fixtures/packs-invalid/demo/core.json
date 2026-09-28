@@ -1,0 +1,9 @@
+{
+  "pack": "wrong-name",
+  "version": 1,
+  "units": [{ "id": "greetings", "order": 10, "items": ["greetings.morning", "greetings.missing"] }],
+  "items": [
+    { "id": "greetings.morning", "kind": "word" },
+    { "id": "greetings.morning", "kind": "word" }
+  ]
+}

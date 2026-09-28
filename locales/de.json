@@ -1,0 +1,15 @@
+{
+  "app": {
+    "name": "Logos",
+    "tagline": "Orthodoxe Gebete und Begriffe lernen – und Griechisch und Russisch im Alltag."
+  },
+  "a11y": {
+    "skip_to_content": "Zum Inhalt springen"
+  },
+  "shell": {
+    "status_title": "Das Fundament steht",
+    "status_text": "Die App wird gerade aufgebaut. Die ersten Lerneinheiten folgen in der nächsten Phase.",
+    "offline_ready": "Offline verfügbar",
+    "version": "Version {{version}}"
+  }
+}

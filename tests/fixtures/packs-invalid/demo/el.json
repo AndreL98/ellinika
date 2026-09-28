@@ -1,0 +1,9 @@
+{
+  "lang": "el",
+  "script": "Grek",
+  "dir": "ltr",
+  "items": {
+    "greetings.morning": { "text": "καλημέρα", "source": { "title": "Test fixture" }, "status": "approved" },
+    "greetings.unknown": { "text": "γεια", "source": { "title": "Test fixture" }, "status": "draft" }
+  }
+}

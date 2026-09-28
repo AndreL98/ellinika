@@ -1,0 +1,9 @@
+{
+  "pack": "demo",
+  "version": 1,
+  "units": [{ "id": "greetings", "icon": "👋", "order": 10, "items": ["greetings.morning", "greetings.thanks"] }],
+  "items": [
+    { "id": "greetings.morning", "kind": "word", "tags": ["greeting"] },
+    { "id": "greetings.thanks", "kind": "word", "tags": ["greeting"] }
+  ]
+}
