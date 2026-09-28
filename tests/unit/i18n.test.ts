@@ -1,3 +1,6 @@
+import { readdirSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 import { createTranslator, directionOf, pickLanguage } from '../../app/src/i18n';
 import de from '../../locales/de.json';
@@ -49,10 +52,24 @@ describe('directionOf', () => {
 });
 
 describe('locales/de.json', () => {
-  it('contains every key used by the app shell', () => {
-    const t = createTranslator('de', de);
-    for (const key of ['app.name', 'app.tagline', 'a11y.skip_to_content', 'shell.status_title', 'shell.status_text', 'shell.offline_ready', 'shell.version']) {
-      expect(t(key)).not.toBe(key);
+  const lookup = (key: string): unknown =>
+    key.split('.').reduce<unknown>((node, part) => (node as Record<string, unknown> | undefined)?.[part], de);
+  const exists = (key: string) => typeof lookup(key) === 'string' || typeof lookup(`${key}_other`) === 'string';
+
+  it('contains every literal key used in the app source', () => {
+    const dir = fileURLToPath(new URL('../../app/src', import.meta.url));
+    const files = readdirSync(dir, { recursive: true, encoding: 'utf8' }).filter((f) => f.endsWith('.ts'));
+    const keys = new Set<string>();
+    for (const file of files) {
+      const source = readFileSync(join(dir, file), 'utf8');
+      for (const match of source.matchAll(/\bt\('([a-z_]+\.[a-z_.]+)'/g)) keys.add(match[1]!);
     }
+    expect(keys.size).toBeGreaterThan(20);
+    expect([...keys].filter((key) => !exists(key))).toEqual([]);
+  });
+
+  it('contains an instruction for every exercise type', () => {
+    const types = ['choose_meaning', 'choose_translation', 'listen_choose', 'build_to_ui', 'build_to_learn', 'listen_build', 'match_pairs'];
+    expect(types.filter((type) => !exists(`exercise.${type}`))).toEqual([]);
   });
 });

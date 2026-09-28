@@ -1,7 +1,7 @@
 # APP.md – Zentrale Projektdatei
 
 > Diese Datei ist die „einzige Wahrheit“ für das Projekt. Computer liest sie vor jeder Aufgabe.
-> Stand: 28.09.2026 · Verantwortlich: Andre Löwen
+> Stand: 28.09.2026 (Phase 1, Schritt 1) · Verantwortlich: Andre Löwen
 
 ## 1. Vision
 Eine kostenlose, quelloffene Lern-App, die die Orthodoxie nahbar macht: Wer z. B. Spanisch spricht, aber kein Griechisch oder Kirchenslawisch, lernt Vaterunser, Glaubensbekenntnis und die wichtigsten Begriffe und Rufe der Liturgie – mit Aussprache, Umschrift und belegter Erklärung.
@@ -70,15 +70,28 @@ Jede Kombination soll funktionieren, soweit Inhalte vorhanden sind.
       "status": "approved", "reviewed_by": "", "reviewed_at": "" } } }
 ```
 ### 6.3 Erklärungen je Oberflächensprache
-`/content/packs/<pack>/gloss/<ui-lang>.json` → Bedeutung + Hinweis + Quelle je Item-ID.
+`/content/packs/<pack>/gloss/<ui-lang>.json` → Bedeutung + Hinweis + Quelle je Item-ID, optional Titel je Einheit (`units`).
 ```json
-{ "lang": "de", "items": { "prayer.lords.5": { "meaning": "…", "note": "…", "source": { "title": "…" }, "status": "draft" } } }
+{ "lang": "de", "units": { "prayer.lords": { "title": "Vaterunser" } }, "items": { "prayer.lords.5": { "meaning": "…", "note": "…", "source": { "title": "…" }, "status": "draft" } } }
 ```
 
 Regeln: Item-IDs sind stabil (nie umbenennen). `status` ∈ draft | reviewed | approved. Öffentliche Builds zeigen nur `approved`. `approved` verlangt `reviewed_by` und `reviewed_at`. `translit_status`/`pron_status` ∈ ai_suggestion | verified; fehlt das Feld, gilt es als KI-Vorschlag. Die Schemas liegen in `/content/schema` (pack, item, gloss), geprüft mit `npm run validate:content`.
 
 ## 7. Übungstypen (Stand Prototyp „Ellinika“)
 Bedeutung wählen, Übersetzung wählen, Hören und wählen, Satz bauen (beide Richtungen), Hören und Satz bauen, Paare finden. Fehler kommen am Ende der Lektion erneut. Kronen 0–3 je Einheit, XP, Tagesziel, Serie.
+
+### 7.1 Umsetzung in der Engine (`app/src/engine`)
+| Typ | Kennung | Wann |
+|---|---|---|
+| Bedeutung wählen | `choose_meaning` | Wörter (unter 3 Wörtern), immer |
+| Übersetzung wählen | `choose_translation` | Wörter, ab 1 Krone |
+| Hören und wählen | `listen_choose` | Wörter, nur wenn Audio oder Stimme vorhanden |
+| Satz bauen → Oberflächensprache | `build_to_ui` | Sätze (ab 3 Wörtern), immer |
+| Satz bauen → Lernsprache | `build_to_learn` | Sätze, ab 1 Krone |
+| Hören und Satz bauen | `listen_build` | Sätze, ab 1 Krone und mit Stimme |
+| Paare finden | `match_pairs` | einmal je Lektion, wenn die Einheit mind. 3 Wörter hat |
+
+Regeln: Eine Lektion hat 8 Aufgaben. Falsche Antworten kommen am Ende erneut (höchstens 2 Wiederholungen je Aufgabe). Antwortmöglichkeiten haben nie dieselbe Bedeutung bzw. denselben Text. Eine Lektion bringt 10 XP, ohne Fehler 15 XP, und +1 Krone (höchstens 3). Tagesziel 20 XP. Die Serie zählt Tage mit mindestens einer Lektion. Ein Item ist nur spielbar, wenn Text **und** Erklärung sichtbar sind (öffentlich: beide `approved`). Der lokale Entwicklungsserver (`npm run dev`) zeigt zusätzlich Entwürfe, deutlich markiert.
 
 ## 8. Roadmap
 | Phase | Ziel | Fertig wenn … |
@@ -119,3 +132,7 @@ Bedeutung wählen, Übersetzung wählen, Hören und wählen, Satz bauen (beide R
 | 28.09.2026 | Eigene Inhalte unter CC BY-SA 4.0; liturgische Texte behalten die Lizenz bzw. Erlaubnis ihrer Quelle | Inhalte bleiben frei; kirchliche Texte werden nicht umlizenziert |
 | 28.09.2026 | Repo `ellinika` wird umgebaut (kein neues Repo), alter Prototyp liegt in `prototype/` | Repo ist schon öffentlich (GitHub Pages im Gratis-Tarif nur für öffentliche Repos); Umbenennen später möglich, Pfade sind relativ |
 | 28.09.2026 | Übertragung per Git (Branch + PR), nicht über den Connector | Auch große Dateien wie package-lock.json kommen vollständig an |
+| 28.09.2026 | Übungen nach Abschnitt 7 neu gebaut (Prototyp-Code nicht verfügbar) | Engine als reine Funktionen, vollständig mit Vitest getestet |
+| 28.09.2026 | Fortschritt in IndexedDB, Rückfall auf localStorage, dann Arbeitsspeicher; Export/Import als JSON-Funktion vorbereitet | Offline, ohne Konto, Daten bleiben auf dem Gerät |
+| 28.09.2026 | Browser-Tests laufen gegen einen eigenen Build mit Test-Paket (`npm run build:e2e`, `tests/fixtures/packs-e2e`) | Echte Pakete enthalten noch keine freigegebenen Texte; Test-Inhalte landen nie im öffentlichen Build |
+| 28.09.2026 | Öffentlicher Build zeigt nur `approved`, `npm run dev` zeigt auch Entwürfe (markiert) | Inhaltsregel bleibt gewahrt, Redaktion kann trotzdem testen |

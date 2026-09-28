@@ -1,7 +1,7 @@
 {
   "name": "logos",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Free, open-source learning app for Orthodox prayers and terms, plus everyday Greek and Russian.",
   "license": "MIT",
   "type": "module",
@@ -16,7 +16,9 @@
     "validate:content": "node scripts/validate-content.mjs",
     "test": "vitest run --config app/vite.config.ts",
     "test:e2e": "playwright test",
-    "check": "npm run typecheck && npm run validate:content && npm run test && npm run build && npm run test:e2e"
+    "check": "npm run typecheck && npm run validate:content && npm run test && npm run build && npm run build:e2e && npm run test:e2e",
+    "build:e2e": "vite build --config app/vite.config.ts --mode e2e",
+    "preview:e2e": "vite preview --config app/vite.config.ts --mode e2e --port 4173 --strictPort"
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0",

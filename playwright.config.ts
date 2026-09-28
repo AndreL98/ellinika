@@ -12,8 +12,8 @@ export default defineConfig({
   },
   projects: [{ name: 'chromium', use: { ...devices['Pixel 7'] } }],
   webServer: {
-    // Tests run against the production build (npm run build first).
-    command: 'npm run preview',
+    // Tests run against the production build with the e2e test pack (npm run build:e2e first).
+    command: 'npm run preview:e2e',
     url: 'http://localhost:4173/',
     reuseExistingServer: !process.env['CI'],
   },

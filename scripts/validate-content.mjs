@@ -131,6 +131,9 @@ export function validateContent(options = {}) {
         checkApproval(file, id, entry, errors);
         stats.glosses += 1;
       }
+      for (const id of Object.keys(data.units ?? {})) {
+        if (!unitIds.has(id)) errors.push(`${file}: unknown unit ${id} (not in core.json)`);
+      }
     }
   }
 

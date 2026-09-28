@@ -1,0 +1,12 @@
+{
+  "lang": "de",
+  "units": { "greetings": { "title": "Begrüßung" } },
+  "items": {
+    "greetings.morning": { "meaning": "Guten Morgen", "source": { "title": "Test fixture" }, "status": "approved", "reviewed_by": "Test", "reviewed_at": "2026-09-28" },
+    "greetings.thanks": { "meaning": "Danke", "source": { "title": "Test fixture" }, "status": "approved", "reviewed_by": "Test", "reviewed_at": "2026-09-28" },
+    "greetings.yes": { "meaning": "Ja", "source": { "title": "Test fixture" }, "status": "approved", "reviewed_by": "Test", "reviewed_at": "2026-09-28" },
+    "greetings.no": { "meaning": "Nein", "source": { "title": "Test fixture" }, "status": "approved", "reviewed_by": "Test", "reviewed_at": "2026-09-28" },
+    "greetings.from-germany": { "meaning": "Ich bin aus Deutschland.", "source": { "title": "Test fixture" }, "status": "approved", "reviewed_by": "Test", "reviewed_at": "2026-09-28" },
+    "greetings.hidden": { "meaning": "Versteckt", "source": { "title": "Test fixture" }, "status": "approved", "reviewed_by": "Test", "reviewed_at": "2026-09-28" }
+  }
+}
