@@ -141,3 +141,4 @@ Regeln: Eine Lektion hat 8 Aufgaben. Falsche Antworten kommen am Ende erneut (h�
 | 28.09.2026 | Umschrift phonetisch nach heutiger Aussprache, Aussprachehilfe für Deutsche mit betonter Silbe in Großbuchstaben | Für Lernende verständlicher als eine buchstabengetreue Norm |
 | 28.09.2026 | Private Prüfansicht (`npm run build:review`) zeigt Entwürfe, nur für das Projekt, nie öffentlich | Inhalte lassen sich vor der Freigabe am Handy durchspielen |
 | 28.09.2026 | Speicher-Rückfall mit Zeitlimit (IndexedDB 1,5 s) | In eingebetteten Ansichten kann IndexedDB hängen |
+| 28.09.2026 | Paket `general/el` (63 Items) freigegeben durch Andre Löwen; Umschrift/Aussprache bleiben KI-Vorschlag | Nicht liturgisch, Freigabe durch den Projektverantwortlichen; Muttersprachler-Prüfung folgt |
