@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://logos.app/schema/pack.schema.json",
+  "title": "Pack core (core.json)",
+  "description": "Language-independent structure of a content pack: units, item IDs, order. See docs/APP.md section 6.1.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["pack", "version", "units", "items"],
+  "properties": {
+    "pack": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "version": { "type": "integer", "minimum": 1 },
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "order", "items"],
+        "properties": {
+          "id": { "$ref": "#/definitions/id" },
+          "icon": { "type": "string", "maxLength": 16 },
+          "order": { "type": "integer", "minimum": 0 },
+          "items": { "type": "array", "items": { "$ref": "#/definitions/id" }, "uniqueItems": true }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind"],
+        "properties": {
+          "id": { "$ref": "#/definitions/id" },
+          "kind": {
+            "type": "string",
+            "enum": ["word", "phrase", "sentence", "prayer_line", "liturgical_call", "term"]
+          },
+          "tags": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }, "uniqueItems": true }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "id": {
+      "type": "string",
+      "description": "Stable ID, never renamed. Lowercase segments separated by dots.",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*(\\.[a-z0-9]+(-[a-z0-9]+)*)*$"
+    }
+  }
+}

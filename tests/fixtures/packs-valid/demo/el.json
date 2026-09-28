@@ -1,0 +1,23 @@
+{
+  "lang": "el",
+  "script": "Grek",
+  "dir": "ltr",
+  "items": {
+    "greetings.morning": {
+      "text": "καλημέρα",
+      "translit": "kaliméra",
+      "translit_status": "ai_suggestion",
+      "pron": { "de": "ka-li-ME-ra" },
+      "audio": null,
+      "source": { "title": "Test fixture" },
+      "status": "approved",
+      "reviewed_by": "Test reviewer",
+      "reviewed_at": "2026-09-28"
+    },
+    "greetings.thanks": {
+      "text": "ευχαριστώ",
+      "source": { "title": "Test fixture" },
+      "status": "draft"
+    }
+  }
+}

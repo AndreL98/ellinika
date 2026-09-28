@@ -1,0 +1,6 @@
+{
+  "lang": "de",
+  "items": {
+    "greetings.morning": { "meaning": "Guten Morgen", "source": { "title": "Test fixture" }, "status": "draft" }
+  }
+}
