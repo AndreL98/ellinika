@@ -1,0 +1,13 @@
+{
+  "lang": "el",
+  "script": "Grek",
+  "dir": "ltr",
+  "items": {
+    "greetings.morning": { "text": "καλημέρα", "translit": "kaliméra", "source": { "title": "Test fixture" }, "status": "approved", "reviewed_by": "Test", "reviewed_at": "2026-09-28" },
+    "greetings.thanks": { "text": "ευχαριστώ", "translit": "efcharistó", "source": { "title": "Test fixture" }, "status": "approved", "reviewed_by": "Test", "reviewed_at": "2026-09-28" },
+    "greetings.yes": { "text": "ναι", "translit": "ne", "source": { "title": "Test fixture" }, "status": "approved", "reviewed_by": "Test", "reviewed_at": "2026-09-28" },
+    "greetings.no": { "text": "όχι", "translit": "óchi", "source": { "title": "Test fixture" }, "status": "approved", "reviewed_by": "Test", "reviewed_at": "2026-09-28" },
+    "greetings.from-germany": { "text": "Είμαι από τη Γερμανία.", "translit": "Íme apó ti Germanía.", "source": { "title": "Test fixture" }, "status": "approved", "reviewed_by": "Test", "reviewed_at": "2026-09-28" },
+    "greetings.hidden": { "text": "κρυφό", "source": { "title": "Test fixture" }, "status": "draft" }
+  }
+}

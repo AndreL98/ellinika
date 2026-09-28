@@ -17,6 +17,10 @@ describe('validateContent', () => {
     expect(stats).toEqual({ packs: 1, items: 2, texts: 2, glosses: 1 });
   });
 
+  it('accepts the e2e test pack', () => {
+    expect(validateContent({ packsDir: fixture('packs-e2e') }).errors).toEqual([]);
+  });
+
   it('reports every rule violation in an invalid pack', () => {
     const { errors } = validateContent({ packsDir: fixture('packs-invalid') });
     const text = errors.join('\n');
@@ -27,5 +31,6 @@ describe('validateContent', () => {
     expect(text).toContain('approved but reviewed_by is empty');
     expect(text).toContain('demo/ru.json');
     expect(text).toContain('demo/gloss/de.json');
+    expect(text).toContain('unknown unit ghost');
   });
 });

@@ -1,12 +1,13 @@
 import { expect, test } from '@playwright/test';
 
-test('app shell renders in German with correct language attributes', async ({ page }) => {
+test('app renders in German with correct language attributes', async ({ page }) => {
   await page.goto('./');
   await expect(page).toHaveTitle('Logos');
   await expect(page.getByRole('heading', { level: 1, name: 'Logos' })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'Das Fundament steht' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'Lernpfad' })).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang', 'de');
   await expect(page.locator('html')).toHaveAttribute('dir', 'ltr');
+  await expect(page.getByText('Du lernst: Griechisch')).toBeVisible();
 });
 
 test('skip link moves keyboard focus to the main content', async ({ page }) => {
@@ -20,8 +21,9 @@ test('skip link moves keyboard focus to the main content', async ({ page }) => {
 
 test('app works offline after the first visit', async ({ page, context }) => {
   await page.goto('./');
-  await expect(page.getByRole('status')).toHaveText('Offline verfügbar');
+  await expect(page.getByRole('status').filter({ hasText: 'Offline verfügbar' })).toBeVisible();
   await context.setOffline(true);
   await page.reload();
   await expect(page.getByRole('heading', { level: 1, name: 'Logos' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 4, name: 'Begrüßung' })).toBeVisible();
 });

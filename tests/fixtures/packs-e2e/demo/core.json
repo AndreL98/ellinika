@@ -1,0 +1,20 @@
+{
+  "pack": "demo",
+  "version": 1,
+  "units": [
+    {
+      "id": "greetings",
+      "icon": "👋",
+      "order": 10,
+      "items": ["greetings.morning", "greetings.thanks", "greetings.yes", "greetings.no", "greetings.from-germany", "greetings.hidden"]
+    }
+  ],
+  "items": [
+    { "id": "greetings.morning", "kind": "word" },
+    { "id": "greetings.thanks", "kind": "word" },
+    { "id": "greetings.yes", "kind": "word" },
+    { "id": "greetings.no", "kind": "word" },
+    { "id": "greetings.from-germany", "kind": "sentence" },
+    { "id": "greetings.hidden", "kind": "word" }
+  ]
+}

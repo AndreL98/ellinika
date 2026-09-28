@@ -7,9 +7,68 @@
     "skip_to_content": "Zum Inhalt springen"
   },
   "shell": {
-    "status_title": "Das Fundament steht",
-    "status_text": "Die App wird gerade aufgebaut. Die ersten Lerneinheiten folgen in der nächsten Phase.",
     "offline_ready": "Offline verfügbar",
     "version": "Version {{version}}"
+  },
+  "stats": {
+    "label": "Dein Fortschritt",
+    "xp": "{{count}} XP",
+    "streak_one": "{{count}} Tag in Folge",
+    "streak_other": "{{count}} Tage in Folge",
+    "goal": "Tagesziel: {{xp}} von {{goal}} XP"
+  },
+  "pack": {
+    "orthodox": "Orthodoxie",
+    "general": "Alltag"
+  },
+  "path": {
+    "title": "Lernpfad",
+    "learning": "Du lernst: {{lang}}",
+    "empty": "Für diese Sprache gibt es noch keine freigegebenen Lerneinheiten. Sie folgen, sobald die Texte geprüft sind.",
+    "dev_notice": "Entwickler-Ansicht: Entwürfe und ungeprüfte Texte werden angezeigt.",
+    "crowns": "{{count}} von 3 Kronen",
+    "start": "Lektion starten",
+    "practice": "Wiederholen",
+    "items_one": "{{count}} Begriff",
+    "items_other": "{{count}} Begriffe"
+  },
+  "lesson": {
+    "close": "Lektion beenden",
+    "progress": "Aufgabe {{current}} von {{total}}",
+    "retry": "Wiederholung",
+    "check": "Prüfen",
+    "continue": "Weiter",
+    "correct": "Richtig.",
+    "wrong": "Leider falsch. Richtig ist:",
+    "empty": "Diese Einheit hat noch keine Aufgaben."
+  },
+  "exercise": {
+    "choose_meaning": "Was bedeutet das?",
+    "choose_translation": "Wähle die Übersetzung auf {{lang}}.",
+    "listen_choose": "Was hörst du?",
+    "build_to_ui": "Bilde den Satz auf {{lang}}.",
+    "build_to_learn": "Bilde den Satz auf {{lang}}.",
+    "listen_build": "Setze zusammen, was du hörst.",
+    "match_pairs": "Finde die Paare.",
+    "listen": "Anhören",
+    "listen_slow": "Langsam anhören",
+    "no_voice": "Für diese Sprache ist auf deinem Gerät keine Stimme verfügbar.",
+    "answer": "Deine Antwort",
+    "tiles": "Wörter zur Auswahl",
+    "options": "Antwortmöglichkeiten",
+    "translit": "Umschrift",
+    "ai_suggestion": "KI-Vorschlag, noch nicht von Muttersprachlern geprüft",
+    "ai_short": "KI-Vorschlag",
+    "draft": "Entwurf",
+    "source": "Quelle: {{title}}"
+  },
+  "result": {
+    "title": "Lektion geschafft",
+    "xp": "+{{count}} XP",
+    "perfect": "Ohne Fehler – 5 XP Bonus.",
+    "mistakes_one": "{{count}} Fehler.",
+    "mistakes_other": "{{count}} Fehler.",
+    "crowns": "Kronen in dieser Einheit: {{count}} von 3",
+    "back": "Zurück zum Lernpfad"
   }
 }
