@@ -1,0 +1,1130 @@
+{
+  "lang": "el",
+  "script": "Grek",
+  "dir": "ltr",
+  "items": {
+    "general.greetings.1": {
+      "text": "γεια σου",
+      "translit": "ja su",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "JA su"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B3%CE%B5%CE%B9%CE%B1",
+        "section": "γεια"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.2": {
+      "text": "γεια σας",
+      "translit": "ja sas",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "JA sas"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B3%CE%B5%CE%B9%CE%B1",
+        "section": "γεια"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.3": {
+      "text": "καλημέρα",
+      "translit": "kaliméra",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ka-li-ME-ra"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CE%BB%CE%B7%CE%BC%CE%AD%CF%81%CE%B1",
+        "section": "καλημέρα"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.4": {
+      "text": "καλησπέρα",
+      "translit": "kalispéra",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ka-li-SPE-ra"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CE%BB%CE%B7%CF%83%CF%80%CE%AD%CF%81%CE%B1",
+        "section": "καλησπέρα"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.5": {
+      "text": "καληνύχτα",
+      "translit": "kaliníchta",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ka-li-NICH-ta"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CE%BB%CE%B7%CE%BD%CF%8D%CF%87%CF%84%CE%B1",
+        "section": "καληνύχτα"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.6": {
+      "text": "αντίο",
+      "translit": "adío",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "a-DI-o"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CE%BD%CF%84%CE%AF%CE%BF",
+        "section": "αντίο"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.7": {
+      "text": "Τι κάνεις;",
+      "translit": "ti kánis",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ti KA-nis"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%AC%CE%BD%CF%89",
+        "section": "κάνω"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.8": {
+      "text": "Είμαι καλά, ευχαριστώ.",
+      "translit": "íme kalá, efcharistó",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "I-me ka-LA, ef-cha-ri-STO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.9": {
+      "text": "Χαίρω πολύ.",
+      "translit": "chéro polí",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "CHE-ro po-LI"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%87%CE%B1%CE%AF%CF%81%CF%89",
+        "section": "χαίρω"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.greetings.10": {
+      "text": "Με λένε Μαρία.",
+      "translit": "me léne María",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "me LE-ne ma-RI-a"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.1": {
+      "text": "ευχαριστώ",
+      "translit": "efcharistó",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ef-cha-ri-STO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CF%85%CF%87%CE%B1%CF%81%CE%B9%CF%83%CF%84%CF%8E",
+        "section": "ευχαριστώ"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.2": {
+      "text": "παρακαλώ",
+      "translit": "parakaló",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "pa-ra-ka-LO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%B1%CF%81%CE%B1%CE%BA%CE%B1%CE%BB%CF%8E",
+        "section": "παρακαλώ"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.3": {
+      "text": "ναι",
+      "translit": "ne",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ne"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BD%CE%B1%CE%B9",
+        "section": "ναι"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.4": {
+      "text": "όχι",
+      "translit": "óchi",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "O-chi"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%8C%CF%87%CE%B9",
+        "section": "όχι"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.5": {
+      "text": "συγγνώμη",
+      "translit": "sighnómi",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "si-GHNO-mi"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%83%CF%85%CE%B3%CE%B3%CE%BD%CF%8E%CE%BC%CE%B7",
+        "section": "συγγνώμη"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.6": {
+      "text": "ευχαριστώ πολύ",
+      "translit": "efcharistó polí",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ef-cha-ri-STO po-LI"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CF%85%CF%87%CE%B1%CF%81%CE%B9%CF%83%CF%84%CF%8E",
+        "section": "ευχαριστώ"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.7": {
+      "text": "Δεν πειράζει.",
+      "translit": "dhen pirázi",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "dhen pi-RA-zi"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%B5%CE%B9%CF%81%CE%AC%CE%B6%CF%89",
+        "section": "πειράζω"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.8": {
+      "text": "Δεν καταλαβαίνω.",
+      "translit": "dhen katalavéno",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "dhen ka-ta-la-WE-no"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CF%84%CE%B1%CE%BB%CE%B1%CE%B2%CE%B1%CE%AF%CE%BD%CF%89",
+        "section": "καταλαβαίνω"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.9": {
+      "text": "Μιλάτε γερμανικά;",
+      "translit": "miláte jermaniká",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "mi-LA-te jer-ma-ni-KA"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%B9%CE%BA%CF%8C%CF%82",
+        "section": "γερμανικός"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.courtesy.10": {
+      "text": "Μπορείτε να μιλάτε πιο αργά;",
+      "translit": "boríte na miláte pio arghá",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "bo-RI-te na mi-LA-te pjo ar-GHA"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.1": {
+      "text": "ένα",
+      "translit": "éna",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "E-na"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%AD%CE%BD%CE%B1%CF%82",
+        "section": "ένας"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.2": {
+      "text": "δύο",
+      "translit": "dhío",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "DHI-o"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B4%CF%8D%CE%BF",
+        "section": "δύο"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.3": {
+      "text": "τρία",
+      "translit": "tría",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "TRI-a"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%84%CF%81%CE%B5%CE%B9%CF%82",
+        "section": "τρεις"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.4": {
+      "text": "τέσσερα",
+      "translit": "téssera",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "TE-se-ra"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%84%CE%AD%CF%83%CF%83%CE%B5%CF%81%CE%B9%CF%82",
+        "section": "τέσσερις"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.5": {
+      "text": "πέντε",
+      "translit": "pénde",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "PEN-de"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%AD%CE%BD%CF%84%CE%B5",
+        "section": "πέντε"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.6": {
+      "text": "έξι",
+      "translit": "éksi",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "EK-si"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%AD%CE%BE%CE%B9",
+        "section": "έξι"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.7": {
+      "text": "επτά",
+      "translit": "eptá",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ep-TA"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CF%80%CF%84%CE%AC",
+        "section": "επτά"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.8": {
+      "text": "οκτώ",
+      "translit": "októ",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ok-TO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BF%CE%BA%CF%84%CF%8E",
+        "section": "οκτώ"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.9": {
+      "text": "εννέα",
+      "translit": "enéa",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "e-NE-a"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CE%BD%CE%BD%CE%AD%CE%B1",
+        "section": "εννέα"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.10": {
+      "text": "δέκα",
+      "translit": "dhéka",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "DHE-ka"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B4%CE%AD%CE%BA%CE%B1",
+        "section": "δέκα"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.numbers.11": {
+      "text": "Θέλω δύο καφέδες, παρακαλώ.",
+      "translit": "thélo dhío kafédhes, parakaló",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "THE-lo DHI-o ka-FE-dhes, pa-ra-ka-LO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.1": {
+      "text": "το νερό",
+      "translit": "to neró",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "to ne-RO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BD%CE%B5%CF%81%CF%8C",
+        "section": "νερό"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.2": {
+      "text": "ο καφές",
+      "translit": "o kafés",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "o ka-FES"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CF%86%CE%AD%CF%82",
+        "section": "καφές"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.3": {
+      "text": "το ψωμί",
+      "translit": "to psomí",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "to pso-MI"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%88%CF%89%CE%BC%CE%AF",
+        "section": "ψωμί"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.4": {
+      "text": "το κρασί",
+      "translit": "to krasí",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "to kra-SI"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CF%81%CE%B1%CF%83%CE%AF",
+        "section": "κρασί"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.5": {
+      "text": "το τυρί",
+      "translit": "to tirí",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "to ti-RI"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%84%CF%85%CF%81%CE%AF",
+        "section": "τυρί"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.6": {
+      "text": "το ψάρι",
+      "translit": "to psári",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "to PSA-ri"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%88%CE%AC%CF%81%CE%B9",
+        "section": "ψάρι"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.7": {
+      "text": "τα φρούτα",
+      "translit": "ta frúta",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ta FRU-ta"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%86%CF%81%CE%BF%CF%8D%CF%84%CE%BF",
+        "section": "φρούτο"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.8": {
+      "text": "ο λογαριασμός",
+      "translit": "o logharjazmós",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "o lo-gha-rjaz-MOS"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BB%CE%BF%CE%B3%CE%B1%CF%81%CE%B9%CE%B1%CF%83%CE%BC%CF%8C%CF%82",
+        "section": "λογαριασμός"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.9": {
+      "text": "Ένα νερό, παρακαλώ.",
+      "translit": "éna neró, parakaló",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "E-na ne-RO, pa-ra-ka-LO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.10": {
+      "text": "Τον λογαριασμό, παρακαλώ.",
+      "translit": "ton logharjazmó, parakaló",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ton lo-gha-rjaz-MO, pa-ra-ka-LO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.food.11": {
+      "text": "Είναι πολύ νόστιμο.",
+      "translit": "íne polí nóstimo",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "I-ne po-LI NO-sti-mo"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.1": {
+      "text": "η οικογένεια",
+      "translit": "i ikojénia",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "i i-ko-JE-nja"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BF%CE%B9%CE%BA%CE%BF%CE%B3%CE%AD%CE%BD%CE%B5%CE%B9%CE%B1",
+        "section": "οικογένεια"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.2": {
+      "text": "η μητέρα",
+      "translit": "i mitéra",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "i mi-TE-ra"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BC%CE%B7%CF%84%CE%AD%CF%81%CE%B1",
+        "section": "μητέρα"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.3": {
+      "text": "ο πατέρας",
+      "translit": "o patéras",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "o pa-TE-ras"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%B1%CF%84%CE%AD%CF%81%CE%B1%CF%82",
+        "section": "πατέρας"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.4": {
+      "text": "ο αδελφός",
+      "translit": "o adhelfós",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "o a-dhel-FOS"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CE%B4%CE%B5%CE%BB%CF%86%CF%8C%CF%82",
+        "section": "αδελφός"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.5": {
+      "text": "η αδελφή",
+      "translit": "i adhelfí",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "i a-dhel-FI"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CE%B4%CE%B5%CE%BB%CF%86%CE%AE",
+        "section": "αδελφή"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.6": {
+      "text": "ο γιος",
+      "translit": "o jos",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "o JOS"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B3%CE%B9%CE%BF%CF%82",
+        "section": "γιος"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.7": {
+      "text": "η κόρη",
+      "translit": "i kóri",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "i KO-ri"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CF%8C%CF%81%CE%B7",
+        "section": "κόρη"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.8": {
+      "text": "ο φίλος",
+      "translit": "o fílos",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "o FI-los"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%86%CE%AF%CE%BB%CE%BF%CF%82",
+        "section": "φίλος"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.9": {
+      "text": "Αυτή είναι η μητέρα μου.",
+      "translit": "aftí íne i mitéra mu",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "af-TI I-ne i mi-TE-ra mu"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.family.10": {
+      "text": "Έχω έναν αδελφό.",
+      "translit": "écho énan adhelfó",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "E-cho E-nan a-dhel-FO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.1": {
+      "text": "πού;",
+      "translit": "pu",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "PU"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%BF%CF%8D",
+        "section": "πού"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.2": {
+      "text": "πότε;",
+      "translit": "póte",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "PO-te"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CF%8C%CF%84%CE%B5",
+        "section": "πότε"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.3": {
+      "text": "τι;",
+      "translit": "ti",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "ti"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%84%CE%B9",
+        "section": "τι"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.4": {
+      "text": "σήμερα",
+      "translit": "símera",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "SI-me-ra"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%83%CE%AE%CE%BC%CE%B5%CF%81%CE%B1",
+        "section": "σήμερα"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.5": {
+      "text": "αύριο",
+      "translit": "ávrio",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "AW-ri-o"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CF%8D%CF%81%CE%B9%CE%BF",
+        "section": "αύριο"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.6": {
+      "text": "τώρα",
+      "translit": "tóra",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "TO-ra"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%84%CF%8E%CF%81%CE%B1",
+        "section": "τώρα"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.7": {
+      "text": "εδώ",
+      "translit": "edhó",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "e-DHO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CE%B4%CF%8E",
+        "section": "εδώ"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.8": {
+      "text": "εκεί",
+      "translit": "ekí",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "e-KI"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CE%BA%CE%B5%CE%AF",
+        "section": "εκεί"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.9": {
+      "text": "Πού είναι η τουαλέτα;",
+      "translit": "pu íne i tualéta",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "pu I-ne i tu-a-LE-ta"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.10": {
+      "text": "Πόσο κάνει αυτό;",
+      "translit": "póso káni aftó",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "PO-so KA-ni af-TO"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    },
+    "general.everyday.11": {
+      "text": "Δεν ξέρω.",
+      "translit": "dhen kséro",
+      "translit_status": "ai_suggestion",
+      "pron": {
+        "de": "dhen KSE-ro"
+      },
+      "pron_status": "ai_suggestion",
+      "audio": null,
+      "source": {
+        "title": "Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
+        "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BE%CE%AD%CF%81%CF%89",
+        "section": "ξέρω"
+      },
+      "status": "draft",
+      "reviewed_by": "",
+      "reviewed_at": ""
+    }
+  }
+}

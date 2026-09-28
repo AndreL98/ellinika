@@ -1,7 +1,7 @@
 # APP.md – Zentrale Projektdatei
 
 > Diese Datei ist die „einzige Wahrheit“ für das Projekt. Computer liest sie vor jeder Aufgabe.
-> Stand: 28.09.2026 (Phase 1, Schritt 1) · Verantwortlich: Andre Löwen
+> Stand: 28.09.2026 (Phase 1, erstes Inhaltspaket) · Verantwortlich: Andre Löwen
 
 ## 1. Vision
 Eine kostenlose, quelloffene Lern-App, die die Orthodoxie nahbar macht: Wer z. B. Spanisch spricht, aber kein Griechisch oder Kirchenslawisch, lernt Vaterunser, Glaubensbekenntnis und die wichtigsten Begriffe und Rufe der Liturgie – mit Aussprache, Umschrift und belegter Erklärung.
@@ -136,3 +136,8 @@ Regeln: Eine Lektion hat 8 Aufgaben. Falsche Antworten kommen am Ende erneut (h�
 | 28.09.2026 | Fortschritt in IndexedDB, Rückfall auf localStorage, dann Arbeitsspeicher; Export/Import als JSON-Funktion vorbereitet | Offline, ohne Konto, Daten bleiben auf dem Gerät |
 | 28.09.2026 | Browser-Tests laufen gegen einen eigenen Build mit Test-Paket (`npm run build:e2e`, `tests/fixtures/packs-e2e`) | Echte Pakete enthalten noch keine freigegebenen Texte; Test-Inhalte landen nie im öffentlichen Build |
 | 28.09.2026 | Öffentlicher Build zeigt nur `approved`, `npm run dev` zeigt auch Entwürfe (markiert) | Inhaltsregel bleibt gewahrt, Redaktion kann trotzdem testen |
+| 28.09.2026 | Erstes Paket `general/el` (6 Einheiten, 63 Items) als Entwurf; IDs `general.<thema>.<nr>` | Grundwortschatz für den Alltag; Freigabe durch Andre (nicht liturgisch) |
+| 28.09.2026 | Quelle für Alltagswörter: Λεξικό της κοινής νεοελληνικής (Triantafyllidis); Beispielsätze eigene Formulierungen | Offizielles Standardwörterbuch, frei online prüfbar |
+| 28.09.2026 | Umschrift phonetisch nach heutiger Aussprache, Aussprachehilfe für Deutsche mit betonter Silbe in Großbuchstaben | Für Lernende verständlicher als eine buchstabengetreue Norm |
+| 28.09.2026 | Private Prüfansicht (`npm run build:review`) zeigt Entwürfe, nur für das Projekt, nie öffentlich | Inhalte lassen sich vor der Freigabe am Handy durchspielen |
+| 28.09.2026 | Speicher-Rückfall mit Zeitlimit (IndexedDB 1,5 s) | In eingebetteten Ansichten kann IndexedDB hängen |

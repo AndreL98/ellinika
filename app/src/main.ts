@@ -26,8 +26,8 @@ async function start(root: HTMLElement): Promise<void> {
   const shell = renderShell(root, t, __APP_VERSION__);
   if (import.meta.env.PROD) void registerServiceWorker(() => shell.markOfflineReady());
 
-  // Public builds show only approved texts; the local dev server also shows drafts.
-  const includeUnapproved = import.meta.env.DEV;
+  // Public builds show only approved texts; the dev server and the private review build also show drafts.
+  const includeUnapproved = import.meta.env.DEV || import.meta.env.MODE === 'review';
   const content = loadContent(bundledPacks(), { learnLang: LEARN_LANG, uiLang, includeUnapproved });
   const store = await openBestStore();
   let progress: Progress = await loadProgress(store);

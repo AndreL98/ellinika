@@ -1,7 +1,7 @@
 {
   "name": "logos",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Free, open-source learning app for Orthodox prayers and terms, plus everyday Greek and Russian.",
   "license": "MIT",
   "type": "module",
@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "vite --config app/vite.config.ts",
     "build": "vite build --config app/vite.config.ts",
+    "build:review": "vite build --config app/vite.config.ts --mode review",
     "preview": "vite preview --config app/vite.config.ts --port 4173 --strictPort",
     "typecheck": "tsc --noEmit",
     "validate:content": "node scripts/validate-content.mjs",

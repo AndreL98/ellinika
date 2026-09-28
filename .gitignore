@@ -1,6 +1,7 @@
 node_modules/
 app/dist/
 app/dist-e2e/
+app/dist-review/
 test-results/
 playwright-report/
 *.log
