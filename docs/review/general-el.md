@@ -1,6 +1,6 @@
 # Prüfliste: Alltag / Griechisch (general/el)
 
-Stand: 28.09.2026 · Status aller Einträge: **Entwurf** · Umschrift und Aussprache: **KI-Vorschlag**
+Stand: 28.09.2026 · Status aller Einträge: **freigegeben** (Andre Löwen, 28.09.2026) · Umschrift und Aussprache: weiterhin **KI-Vorschlag**, bis ein Muttersprachler prüft
 
 Bitte prüfen: griechischer Text, deutsche Bedeutung, Hinweis. Korrekturen einfach in die Spalte „Korrektur“ schreiben oder im Chat nennen.
 

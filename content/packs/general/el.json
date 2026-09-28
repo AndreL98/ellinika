@@ -17,9 +17,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B3%CE%B5%CE%B9%CE%B1",
         "section": "γεια"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.greetings.2": {
       "text": "γεια σας",
@@ -35,9 +35,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B3%CE%B5%CE%B9%CE%B1",
         "section": "γεια"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.greetings.3": {
       "text": "καλημέρα",
@@ -53,9 +53,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CE%BB%CE%B7%CE%BC%CE%AD%CF%81%CE%B1",
         "section": "καλημέρα"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.greetings.4": {
       "text": "καλησπέρα",
@@ -71,9 +71,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CE%BB%CE%B7%CF%83%CF%80%CE%AD%CF%81%CE%B1",
         "section": "καλησπέρα"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.greetings.5": {
       "text": "καληνύχτα",
@@ -89,9 +89,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CE%BB%CE%B7%CE%BD%CF%8D%CF%87%CF%84%CE%B1",
         "section": "καληνύχτα"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.greetings.6": {
       "text": "αντίο",
@@ -107,9 +107,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CE%BD%CF%84%CE%AF%CE%BF",
         "section": "αντίο"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.greetings.7": {
       "text": "Τι κάνεις;",
@@ -125,9 +125,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%AC%CE%BD%CF%89",
         "section": "κάνω"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.greetings.8": {
       "text": "Είμαι καλά, ευχαριστώ.",
@@ -142,9 +142,9 @@
         "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.greetings.9": {
       "text": "Χαίρω πολύ.",
@@ -160,9 +160,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%87%CE%B1%CE%AF%CF%81%CF%89",
         "section": "χαίρω"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.greetings.10": {
       "text": "Με λένε Μαρία.",
@@ -177,9 +177,9 @@
         "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.courtesy.1": {
       "text": "ευχαριστώ",
@@ -195,9 +195,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CF%85%CF%87%CE%B1%CF%81%CE%B9%CF%83%CF%84%CF%8E",
         "section": "ευχαριστώ"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.courtesy.2": {
       "text": "παρακαλώ",
@@ -213,9 +213,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%B1%CF%81%CE%B1%CE%BA%CE%B1%CE%BB%CF%8E",
         "section": "παρακαλώ"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.courtesy.3": {
       "text": "ναι",
@@ -231,9 +231,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BD%CE%B1%CE%B9",
         "section": "ναι"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.courtesy.4": {
       "text": "όχι",
@@ -249,9 +249,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%8C%CF%87%CE%B9",
         "section": "όχι"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.courtesy.5": {
       "text": "συγγνώμη",
@@ -267,9 +267,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%83%CF%85%CE%B3%CE%B3%CE%BD%CF%8E%CE%BC%CE%B7",
         "section": "συγγνώμη"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.courtesy.6": {
       "text": "ευχαριστώ πολύ",
@@ -285,9 +285,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CF%85%CF%87%CE%B1%CF%81%CE%B9%CF%83%CF%84%CF%8E",
         "section": "ευχαριστώ"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.courtesy.7": {
       "text": "Δεν πειράζει.",
@@ -303,9 +303,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%B5%CE%B9%CF%81%CE%AC%CE%B6%CF%89",
         "section": "πειράζω"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.courtesy.8": {
       "text": "Δεν καταλαβαίνω.",
@@ -321,9 +321,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CF%84%CE%B1%CE%BB%CE%B1%CE%B2%CE%B1%CE%AF%CE%BD%CF%89",
         "section": "καταλαβαίνω"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.courtesy.9": {
       "text": "Μιλάτε γερμανικά;",
@@ -339,9 +339,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%B9%CE%BA%CF%8C%CF%82",
         "section": "γερμανικός"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.courtesy.10": {
       "text": "Μπορείτε να μιλάτε πιο αργά;",
@@ -356,9 +356,9 @@
         "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.numbers.1": {
       "text": "ένα",
@@ -374,9 +374,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%AD%CE%BD%CE%B1%CF%82",
         "section": "ένας"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.numbers.2": {
       "text": "δύο",
@@ -392,9 +392,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B4%CF%8D%CE%BF",
         "section": "δύο"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.numbers.3": {
       "text": "τρία",
@@ -410,9 +410,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%84%CF%81%CE%B5%CE%B9%CF%82",
         "section": "τρεις"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.numbers.4": {
       "text": "τέσσερα",
@@ -428,9 +428,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%84%CE%AD%CF%83%CF%83%CE%B5%CF%81%CE%B9%CF%82",
         "section": "τέσσερις"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.numbers.5": {
       "text": "πέντε",
@@ -446,9 +446,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%AD%CE%BD%CF%84%CE%B5",
         "section": "πέντε"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.numbers.6": {
       "text": "έξι",
@@ -464,9 +464,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%AD%CE%BE%CE%B9",
         "section": "έξι"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.numbers.7": {
       "text": "επτά",
@@ -482,9 +482,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CF%80%CF%84%CE%AC",
         "section": "επτά"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.numbers.8": {
       "text": "οκτώ",
@@ -500,9 +500,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BF%CE%BA%CF%84%CF%8E",
         "section": "οκτώ"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.numbers.9": {
       "text": "εννέα",
@@ -518,9 +518,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CE%BD%CE%BD%CE%AD%CE%B1",
         "section": "εννέα"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.numbers.10": {
       "text": "δέκα",
@@ -536,9 +536,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B4%CE%AD%CE%BA%CE%B1",
         "section": "δέκα"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.numbers.11": {
       "text": "Θέλω δύο καφέδες, παρακαλώ.",
@@ -553,9 +553,9 @@
         "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.food.1": {
       "text": "το νερό",
@@ -571,9 +571,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BD%CE%B5%CF%81%CF%8C",
         "section": "νερό"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.food.2": {
       "text": "ο καφές",
@@ -589,9 +589,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%B1%CF%86%CE%AD%CF%82",
         "section": "καφές"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.food.3": {
       "text": "το ψωμί",
@@ -607,9 +607,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%88%CF%89%CE%BC%CE%AF",
         "section": "ψωμί"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.food.4": {
       "text": "το κρασί",
@@ -625,9 +625,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CF%81%CE%B1%CF%83%CE%AF",
         "section": "κρασί"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.food.5": {
       "text": "το τυρί",
@@ -643,9 +643,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%84%CF%85%CF%81%CE%AF",
         "section": "τυρί"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.food.6": {
       "text": "το ψάρι",
@@ -661,9 +661,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%88%CE%AC%CF%81%CE%B9",
         "section": "ψάρι"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.food.7": {
       "text": "τα φρούτα",
@@ -679,9 +679,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%86%CF%81%CE%BF%CF%8D%CF%84%CE%BF",
         "section": "φρούτο"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.food.8": {
       "text": "ο λογαριασμός",
@@ -697,9 +697,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BB%CE%BF%CE%B3%CE%B1%CF%81%CE%B9%CE%B1%CF%83%CE%BC%CF%8C%CF%82",
         "section": "λογαριασμός"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.food.9": {
       "text": "Ένα νερό, παρακαλώ.",
@@ -714,9 +714,9 @@
         "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.food.10": {
       "text": "Τον λογαριασμό, παρακαλώ.",
@@ -731,9 +731,9 @@
         "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.food.11": {
       "text": "Είναι πολύ νόστιμο.",
@@ -748,9 +748,9 @@
         "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.family.1": {
       "text": "η οικογένεια",
@@ -766,9 +766,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BF%CE%B9%CE%BA%CE%BF%CE%B3%CE%AD%CE%BD%CE%B5%CE%B9%CE%B1",
         "section": "οικογένεια"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.family.2": {
       "text": "η μητέρα",
@@ -784,9 +784,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BC%CE%B7%CF%84%CE%AD%CF%81%CE%B1",
         "section": "μητέρα"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.family.3": {
       "text": "ο πατέρας",
@@ -802,9 +802,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%B1%CF%84%CE%AD%CF%81%CE%B1%CF%82",
         "section": "πατέρας"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.family.4": {
       "text": "ο αδελφός",
@@ -820,9 +820,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CE%B4%CE%B5%CE%BB%CF%86%CF%8C%CF%82",
         "section": "αδελφός"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.family.5": {
       "text": "η αδελφή",
@@ -838,9 +838,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CE%B4%CE%B5%CE%BB%CF%86%CE%AE",
         "section": "αδελφή"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.family.6": {
       "text": "ο γιος",
@@ -856,9 +856,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B3%CE%B9%CE%BF%CF%82",
         "section": "γιος"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.family.7": {
       "text": "η κόρη",
@@ -874,9 +874,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CF%8C%CF%81%CE%B7",
         "section": "κόρη"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.family.8": {
       "text": "ο φίλος",
@@ -892,9 +892,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%86%CE%AF%CE%BB%CE%BF%CF%82",
         "section": "φίλος"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.family.9": {
       "text": "Αυτή είναι η μητέρα μου.",
@@ -909,9 +909,9 @@
         "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.family.10": {
       "text": "Έχω έναν αδελφό.",
@@ -926,9 +926,9 @@
         "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.everyday.1": {
       "text": "πού;",
@@ -944,9 +944,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%BF%CF%8D",
         "section": "πού"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.everyday.2": {
       "text": "πότε;",
@@ -962,9 +962,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CF%8C%CF%84%CE%B5",
         "section": "πότε"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.everyday.3": {
       "text": "τι;",
@@ -980,9 +980,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%84%CE%B9",
         "section": "τι"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.everyday.4": {
       "text": "σήμερα",
@@ -998,9 +998,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%83%CE%AE%CE%BC%CE%B5%CF%81%CE%B1",
         "section": "σήμερα"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.everyday.5": {
       "text": "αύριο",
@@ -1016,9 +1016,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CF%8D%CF%81%CE%B9%CE%BF",
         "section": "αύριο"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.everyday.6": {
       "text": "τώρα",
@@ -1034,9 +1034,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%84%CF%8E%CF%81%CE%B1",
         "section": "τώρα"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.everyday.7": {
       "text": "εδώ",
@@ -1052,9 +1052,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CE%B4%CF%8E",
         "section": "εδώ"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.everyday.8": {
       "text": "εκεί",
@@ -1070,9 +1070,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CE%BA%CE%B5%CE%AF",
         "section": "εκεί"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.everyday.9": {
       "text": "Πού είναι η τουαλέτα;",
@@ -1087,9 +1087,9 @@
         "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.everyday.10": {
       "text": "Πόσο κάνει αυτό;",
@@ -1104,9 +1104,9 @@
         "title": "Eigener Beispielsatz (Logos-Projekt); Wörter nach: Λεξικό της κοινής νεοελληνικής (Ινστιτούτο Νεοελληνικών Σπουδών), Πύλη για την ελληνική γλώσσα",
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     },
     "general.everyday.11": {
       "text": "Δεν ξέρω.",
@@ -1122,9 +1122,9 @@
         "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BE%CE%AD%CF%81%CF%89",
         "section": "ξέρω"
       },
-      "status": "draft",
-      "reviewed_by": "",
-      "reviewed_at": ""
+      "status": "approved",
+      "reviewed_by": "Andre Löwen",
+      "reviewed_at": "2026-09-28"
     }
   }
 }

@@ -53,9 +53,11 @@ describe('real content: general/el with German explanations', () => {
     expect(new Set(pool.map((item) => item.meaning.toLowerCase())).size).toBe(pool.length);
   });
 
-  it('is not visible in public builds while everything is a draft', () => {
+  it('public builds contain only approved items with reviewer and date', () => {
     const pub = loadContent(realPacks(), { learnLang: 'el', uiLang: 'de', includeUnapproved: false });
-    expect(pub.units.filter((unit) => unit.pack === 'general')).toEqual([]);
+    const items = pub.units.flatMap((unit) => unit.items);
+    expect(items.length).toBeGreaterThan(0);
+    for (const item of items) expect(item.status, item.id).toBe('approved');
   });
 
   it('generates playable lessons for every unit, level and voice setting', () => {
